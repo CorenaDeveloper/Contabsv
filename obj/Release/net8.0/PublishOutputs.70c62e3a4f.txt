@@ -1,0 +1,16 @@
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\Contabsv_core.exe
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\Contabsv_core.dll
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\Contabsv_core.deps.json
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\Contabsv_core.runtimeconfig.json
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\Contabsv_core.pdb
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.ObjectPool.dll
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Options.dll
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.Pkcs.dll
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.Xml.dll
+C:\Users\programador04\Documents\GitHub\Contabsv_core\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

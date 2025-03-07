@@ -1,0 +1,2733 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Contabsv_core.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Contabsv_core.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\extras.css",
+      "PackagePath": "staticwebassets\\css\\extras.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\landing.css",
+      "PackagePath": "staticwebassets\\css\\landing.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\autoFill.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\autoFill.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\bootstrap-slider.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\bootstrap-slider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\bootstrap-switch-button.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\bootstrap-switch-button.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\buttons.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\buttons.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\colReorder.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\colReorder.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\croppr.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\croppr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\datepicker-bs5.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\datepicker-bs5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\dragula.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\dragula.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\dropzone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\fixedColumns.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\fixedColumns.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\fixedHeader.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\fixedHeader.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\flatpickr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\introjs.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\introjs.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\jsvectormap.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\jsvectormap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\keyTable.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\keyTable.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\notifier.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\notifier.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\prism-coy.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\prism-coy.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\quill.bubble.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\quill.bubble.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\quill.core.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\quill.core.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\quill.snow.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\quill.snow.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\responsive.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\responsive.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\rowReorder.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\rowReorder.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\scroller.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\scroller.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\select.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\select.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\simplemde.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\simplemde.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\star-rating.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\star-rating.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\style.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\swiper-bundle.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\swiper-bundle.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\tiny-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\uppy.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\uppy.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\plugins\\vanillatree.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\vanillatree.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\style-preset.css",
+      "PackagePath": "staticwebassets\\css\\style-preset.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\css\\uikit.css",
+      "PackagePath": "staticwebassets\\css\\uikit.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\feather.css",
+      "PackagePath": "staticwebassets\\fonts\\feather.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\feather\\feather.eot",
+      "PackagePath": "staticwebassets\\fonts\\feather\\feather.eot"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\feather\\feather.svg",
+      "PackagePath": "staticwebassets\\fonts\\feather\\feather.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\feather\\feather.ttf",
+      "PackagePath": "staticwebassets\\fonts\\feather\\feather.ttf"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\feather\\feather.woff",
+      "PackagePath": "staticwebassets\\fonts\\feather\\feather.woff"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\fontawesome\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\material.css",
+      "PackagePath": "staticwebassets\\fonts\\material.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\material\\material.woff2",
+      "PackagePath": "staticwebassets\\fonts\\material\\material.woff2"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\phosphor\\duotone\\Phosphor-Duotone.svg",
+      "PackagePath": "staticwebassets\\fonts\\phosphor\\duotone\\Phosphor-Duotone.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\phosphor\\duotone\\Phosphor-Duotone.ttf",
+      "PackagePath": "staticwebassets\\fonts\\phosphor\\duotone\\Phosphor-Duotone.ttf"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\phosphor\\duotone\\Phosphor-Duotone.woff",
+      "PackagePath": "staticwebassets\\fonts\\phosphor\\duotone\\Phosphor-Duotone.woff"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\phosphor\\duotone\\selection.json",
+      "PackagePath": "staticwebassets\\fonts\\phosphor\\duotone\\selection.json"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\phosphor\\duotone\\style.css",
+      "PackagePath": "staticwebassets\\fonts\\phosphor\\duotone\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\tabler-icons.min.css",
+      "PackagePath": "staticwebassets\\fonts\\tabler-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\tabler\\tabler-icons.eot",
+      "PackagePath": "staticwebassets\\fonts\\tabler\\tabler-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\tabler\\tabler-icons.svg",
+      "PackagePath": "staticwebassets\\fonts\\tabler\\tabler-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\tabler\\tabler-icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\tabler\\tabler-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\tabler\\tabler-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\tabler\\tabler-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\fonts\\tabler\\tabler-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\tabler\\tabler-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-add-user.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-add-user.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-bootstrap.svg",
+      "PackagePath": "staticwebassets\\images\\admin\\img-bootstrap.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-bulb.svg",
+      "PackagePath": "staticwebassets\\images\\admin\\img-bulb.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-c.svg",
+      "PackagePath": "staticwebassets\\images\\admin\\img-c.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-course-1.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-course-1.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-course-2.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-course-2.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-course-3.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-course-3.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-course-4.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-course-4.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-course-5.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-course-5.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-course-6.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-course-6.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-course-7.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-course-7.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-course-8.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-course-8.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-domain.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-domain.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-payment-1.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-payment-1.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-payment-2.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-payment-2.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-php.svg",
+      "PackagePath": "staticwebassets\\images\\admin\\img-php.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-star.png",
+      "PackagePath": "staticwebassets\\images\\admin\\img-star.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-ux.svg",
+      "PackagePath": "staticwebassets\\images\\admin\\img-ux.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\img-web.svg",
+      "PackagePath": "staticwebassets\\images\\admin\\img-web.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\p1.jpg",
+      "PackagePath": "staticwebassets\\images\\admin\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\p2.jpg",
+      "PackagePath": "staticwebassets\\images\\admin\\p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\p3.jpg",
+      "PackagePath": "staticwebassets\\images\\admin\\p3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\p4.jpg",
+      "PackagePath": "staticwebassets\\images\\admin\\p4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\admin\\p5.jpg",
+      "PackagePath": "staticwebassets\\images\\admin\\p5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\card.png",
+      "PackagePath": "staticwebassets\\images\\application\\card.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-accout-alert.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-accout-alert.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-accout-password-alert.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-accout-password-alert.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-brand-1.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-brand-1.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-brand-2.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-brand-2.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-brand-3.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-brand-3.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-brand-4.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-brand-4.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-brand-5.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-brand-5.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-brand-6.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-brand-6.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-community-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-community-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-coupon.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-coupon.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-empty-mail.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-empty-mail.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-gallery-1.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-gallery-2.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-gallery-3.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-gallery-4.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-gallery-5.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-gallery-6.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-gallery-7.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-gallery-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-gallery-8.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-gallery-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-mastercard.svg",
+      "PackagePath": "staticwebassets\\images\\application\\img-mastercard.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-pay-card-bg.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-pay-card-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-post-1.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-post-2.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-post-3.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-post-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-post-4.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-post-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-post-5.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-post-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-post-6.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-post-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-1.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-2.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-3.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-4.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-5.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-6.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-7.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-8.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-9.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-brand-1.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-brand-1.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-brand-2.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-brand-2.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-brand-3.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-brand-3.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-brand-4.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-brand-4.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-prod-brand-5.png",
+      "PackagePath": "staticwebassets\\images\\application\\img-prod-brand-5.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-profile-cover.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-profile-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-soc-gal-1.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-soc-gal-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-soc-gal-2.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-soc-gal-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-soc-gal-3.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-soc-gal-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-soc-gal-4.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-soc-gal-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-soc-gal-5.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-soc-gal-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-soc-gal-6.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-soc-gal-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-soc-gal-7.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-soc-gal-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-soc-gal-8.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-soc-gal-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-soc-gal-9.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-soc-gal-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-story-1.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-story-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-story-2.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-story-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-story-3.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-story-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-story-4.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-story-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-story-5.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-story-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-story-6.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-story-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-user-cover-1.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-user-cover-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-user-cover-2.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-user-cover-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-user-cover-3.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-user-cover-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-user-cover-4.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-user-cover-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-user-cover-5.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-user-cover-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-user-cover-6.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-user-cover-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-user-cover-7.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-user-cover-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-user-cover-8.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-user-cover-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\img-user-cover-9.jpg",
+      "PackagePath": "staticwebassets\\images\\application\\img-user-cover-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\mastercard.png",
+      "PackagePath": "staticwebassets\\images\\application\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\paypal.png",
+      "PackagePath": "staticwebassets\\images\\application\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\application\\visa.png",
+      "PackagePath": "staticwebassets\\images\\application\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\authentication\\img-auth-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\authentication\\img-auth-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\authentication\\img-auth-code-varify.png",
+      "PackagePath": "staticwebassets\\images\\authentication\\img-auth-code-varify.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\authentication\\img-auth-fporgot-password.png",
+      "PackagePath": "staticwebassets\\images\\authentication\\img-auth-fporgot-password.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\authentication\\img-auth-login.png",
+      "PackagePath": "staticwebassets\\images\\authentication\\img-auth-login.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\authentication\\img-auth-register.png",
+      "PackagePath": "staticwebassets\\images\\authentication\\img-auth-register.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\authentication\\img-auth-reset-password.png",
+      "PackagePath": "staticwebassets\\images\\authentication\\img-auth-reset-password.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\authentication\\sms.svg",
+      "PackagePath": "staticwebassets\\images\\authentication\\sms.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\component\\img-card.jpg",
+      "PackagePath": "staticwebassets\\images\\component\\img-card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\component\\img-slide-1.jpg",
+      "PackagePath": "staticwebassets\\images\\component\\img-slide-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\component\\img-slide-2.jpg",
+      "PackagePath": "staticwebassets\\images\\component\\img-slide-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\component\\img-slide-3.jpg",
+      "PackagePath": "staticwebassets\\images\\component\\img-slide-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\customizer\\img-caption-1.svg",
+      "PackagePath": "staticwebassets\\images\\customizer\\img-caption-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\customizer\\img-caption-2.svg",
+      "PackagePath": "staticwebassets\\images\\customizer\\img-caption-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\customizer\\img-container-1.svg",
+      "PackagePath": "staticwebassets\\images\\customizer\\img-container-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\customizer\\img-container-2.svg",
+      "PackagePath": "staticwebassets\\images\\customizer\\img-container-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\customizer\\img-layout-1.svg",
+      "PackagePath": "staticwebassets\\images\\customizer\\img-layout-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\customizer\\img-layout-2.svg",
+      "PackagePath": "staticwebassets\\images\\customizer\\img-layout-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\favicon.svg",
+      "PackagePath": "staticwebassets\\images\\favicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-10.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-11.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-12.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-13.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-14.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-15.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-16.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-5.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-6.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-7.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-8.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\gallery-grid\\img-grd-gal-9.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-grid\\img-grd-gal-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\client-crystal-1.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\client-crystal-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\client-eagames.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\client-eagames.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\client-haswent-2.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\client-haswent-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\client-vodafone.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\client-vodafone.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\header-main.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\header-main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\icons\\figma.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\icons\\figma.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\icons\\js.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\icons\\js.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\icons\\mui.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\icons\\mui.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\icons\\react.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\icons\\react.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\icons\\ts.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\icons\\ts.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\img-counter-bg.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\img-counter-bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\img-customer-bg.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\img-customer-bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\img-h-badge-bg.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\img-h-badge-bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\img-header-bg.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\img-header-bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\lay-compact.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\lay-compact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\lay-horizontal.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\lay-horizontal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\lay-layout2.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\lay-layout2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\lay-tab.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\lay-tab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\lay-vertical.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\lay-vertical.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-app-calendar.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-app-calendar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-app-chat.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-app-chat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-app-ecommerce.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-app-ecommerce.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-app-gallery.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-app-gallery.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-app-inbox.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-app-inbox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-app-invoice.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-app-invoice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-app-social.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-app-social.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-figma.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-figma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-important-account-profile.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-important-account-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-important-auth-page.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-important-auth-page.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-important-coming-soon.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-important-coming-soon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-important-componets.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-important-componets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-important-contact.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-important-contact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-important-data-table.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-important-data-table.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-important-error.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-important-error.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-important-form.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-important-form.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-important-widgets.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-important-widgets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-important-wizard.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-important-wizard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-layouts-compact.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-layouts-compact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-layouts-creative.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-layouts-creative.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-layouts-horizontal.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-layouts-horizontal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-layouts-tab.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-layouts-tab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-layouts-vertical.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-layouts-vertical.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-page-dark.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-page-dark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-page-landing.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-page-landing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\preview-page-rtl.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\preview-page-rtl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\techcard-angular.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\techcard-angular.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\techcard-bs.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\techcard-bs.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\techcard-cakephp.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\techcard-cakephp.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\techcard-django.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\techcard-django.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\techcard-figma.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\techcard-figma.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\techcard-laravel.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\techcard-laravel.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\techcard-mvc5.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\techcard-mvc5.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\techcard-net.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\techcard-net.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\techcard-node.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\techcard-node.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\techcard-react.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\techcard-react.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\techcard-vue.svg",
+      "PackagePath": "staticwebassets\\images\\landing\\techcard-vue.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\landing\\widget-bg.png",
+      "PackagePath": "staticwebassets\\images\\landing\\widget-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\layout\\img-profile-card.jpg",
+      "PackagePath": "staticwebassets\\images\\layout\\img-profile-card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\layout\\nav-card-bg.svg",
+      "PackagePath": "staticwebassets\\images\\layout\\nav-card-bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\light-box\\l1.jpg",
+      "PackagePath": "staticwebassets\\images\\light-box\\l1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\light-box\\l2.jpg",
+      "PackagePath": "staticwebassets\\images\\light-box\\l2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\light-box\\l3.jpg",
+      "PackagePath": "staticwebassets\\images\\light-box\\l3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\light-box\\l4.jpg",
+      "PackagePath": "staticwebassets\\images\\light-box\\l4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\light-box\\l5.jpg",
+      "PackagePath": "staticwebassets\\images\\light-box\\l5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\light-box\\l6.jpg",
+      "PackagePath": "staticwebassets\\images\\light-box\\l6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\light-box\\sl1.jpg",
+      "PackagePath": "staticwebassets\\images\\light-box\\sl1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\light-box\\sl2.jpg",
+      "PackagePath": "staticwebassets\\images\\light-box\\sl2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\light-box\\sl3.jpg",
+      "PackagePath": "staticwebassets\\images\\light-box\\sl3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\light-box\\sl4.jpg",
+      "PackagePath": "staticwebassets\\images\\light-box\\sl4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\light-box\\sl5.jpg",
+      "PackagePath": "staticwebassets\\images\\light-box\\sl5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\light-box\\sl6.jpg",
+      "PackagePath": "staticwebassets\\images\\light-box\\sl6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\logo-dark.svg",
+      "PackagePath": "staticwebassets\\images\\logo-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\logo-white.svg",
+      "PackagePath": "staticwebassets\\images\\logo-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\logoContabsv.png",
+      "PackagePath": "staticwebassets\\images\\logoContabsv.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\notification\\clock-48.png",
+      "PackagePath": "staticwebassets\\images\\notification\\clock-48.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\notification\\high_priority-48.png",
+      "PackagePath": "staticwebassets\\images\\notification\\high_priority-48.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\notification\\medium_priority-48.png",
+      "PackagePath": "staticwebassets\\images\\notification\\medium_priority-48.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\notification\\ok-48.png",
+      "PackagePath": "staticwebassets\\images\\notification\\ok-48.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\notification\\survey-48.png",
+      "PackagePath": "staticwebassets\\images\\notification\\survey-48.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-connection-lost.png",
+      "PackagePath": "staticwebassets\\images\\pages\\img-connection-lost.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-error-404.png",
+      "PackagePath": "staticwebassets\\images\\pages\\img-error-404.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-gallery-1.jpg",
+      "PackagePath": "staticwebassets\\images\\pages\\img-gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-gallery-2.jpg",
+      "PackagePath": "staticwebassets\\images\\pages\\img-gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-gallery-3.jpg",
+      "PackagePath": "staticwebassets\\images\\pages\\img-gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-gallery-4.jpg",
+      "PackagePath": "staticwebassets\\images\\pages\\img-gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-gallery-5.jpg",
+      "PackagePath": "staticwebassets\\images\\pages\\img-gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-gallery-6.jpg",
+      "PackagePath": "staticwebassets\\images\\pages\\img-gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-gallery-7.jpg",
+      "PackagePath": "staticwebassets\\images\\pages\\img-gallery-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-gallery-8.jpg",
+      "PackagePath": "staticwebassets\\images\\pages\\img-gallery-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-gallery-9.jpg",
+      "PackagePath": "staticwebassets\\images\\pages\\img-gallery-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-soon.png",
+      "PackagePath": "staticwebassets\\images\\pages\\img-soon.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\pages\\img-under-maintenance.png",
+      "PackagePath": "staticwebassets\\images\\pages\\img-under-maintenance.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\rating\\star-empty.svg",
+      "PackagePath": "staticwebassets\\images\\rating\\star-empty.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\rating\\star-full.svg",
+      "PackagePath": "staticwebassets\\images\\rating\\star-full.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\slider\\img-slide-1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\img-slide-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\slider\\img-slide-2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\img-slide-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\slider\\img-slide-3.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\img-slide-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\slider\\img-slide-4.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\img-slide-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\slider\\img-slide-5.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\img-slide-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\slider\\img-slide-6.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\img-slide-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\slider\\img-slide-7.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\img-slide-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\user\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\user\\avatar-10.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\avatar-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\user\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\user\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\user\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\user\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\avatar-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\user\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\avatar-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\user\\avatar-7.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\avatar-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\user\\avatar-8.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\avatar-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\user\\avatar-9.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\avatar-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\AUSTRALIA.jpg",
+      "PackagePath": "staticwebassets\\images\\widget\\AUSTRALIA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\BRAZIL.jpg",
+      "PackagePath": "staticwebassets\\images\\widget\\BRAZIL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\GERMANY.jpg",
+      "PackagePath": "staticwebassets\\images\\widget\\GERMANY.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\UK.jpg",
+      "PackagePath": "staticwebassets\\images\\widget\\UK.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\USA.jpg",
+      "PackagePath": "staticwebassets\\images\\widget\\USA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-acitivity-3.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-acitivity-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-card-1.png",
+      "PackagePath": "staticwebassets\\images\\widget\\img-card-1.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-card-2.png",
+      "PackagePath": "staticwebassets\\images\\widget\\img-card-2.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-card-bg.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-card-bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-card-master.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-card-master.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-earning-bg.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-earning-bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-facebook.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-food.png",
+      "PackagePath": "staticwebassets\\images\\widget\\img-food.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-google.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-google.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-helth.png",
+      "PackagePath": "staticwebassets\\images\\widget\\img-helth.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-shoping.png",
+      "PackagePath": "staticwebassets\\images\\widget\\img-shoping.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-status-1.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-status-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-status-2.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-status-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-status-3.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-status-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-status-4.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-status-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-status-5.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-status-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-status-6.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-status-6.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-status-7.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-status-7.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-status-8.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-status-8.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-status-9.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-status-9.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-travel.png",
+      "PackagePath": "staticwebassets\\images\\widget\\img-travel.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-twitter.svg",
+      "PackagePath": "staticwebassets\\images\\widget\\img-twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\images\\widget\\img-visitor.png",
+      "PackagePath": "staticwebassets\\images\\widget\\img-visitor.png"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\Alertas.js",
+      "PackagePath": "staticwebassets\\js\\Alertas.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\component.js",
+      "PackagePath": "staticwebassets\\js\\component.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\fonts\\custom-font.js",
+      "PackagePath": "staticwebassets\\js\\fonts\\custom-font.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\layout-collapse.js",
+      "PackagePath": "staticwebassets\\js\\layout-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\layout-compact.js",
+      "PackagePath": "staticwebassets\\js\\layout-compact.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\layout-horizontal.js",
+      "PackagePath": "staticwebassets\\js\\layout-horizontal.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\layout-tab.js",
+      "PackagePath": "staticwebassets\\js\\layout-tab.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\ac-alert.js",
+      "PackagePath": "staticwebassets\\js\\pages\\ac-alert.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\ac-datepicker.js",
+      "PackagePath": "staticwebassets\\js\\pages\\ac-datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\ac-notification.js",
+      "PackagePath": "staticwebassets\\js\\pages\\ac-notification.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\ac-rangeslider.js",
+      "PackagePath": "staticwebassets\\js\\pages\\ac-rangeslider.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\ac-slider.js",
+      "PackagePath": "staticwebassets\\js\\pages\\ac-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\ac-tour.js",
+      "PackagePath": "staticwebassets\\js\\pages\\ac-tour.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\ac-treeview.js",
+      "PackagePath": "staticwebassets\\js\\pages\\ac-treeview.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\calendar.js",
+      "PackagePath": "staticwebassets\\js\\pages\\calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\canada.js",
+      "PackagePath": "staticwebassets\\js\\pages\\canada.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\chart-apex.js",
+      "PackagePath": "staticwebassets\\js\\pages\\chart-apex.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\course-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\pages\\course-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\dashboard-default.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard-default.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\dashboard-finance.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard-finance.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\dashboard-help.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard-help.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\form-masking-custom.js",
+      "PackagePath": "staticwebassets\\js\\pages\\form-masking-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\form-validation.js",
+      "PackagePath": "staticwebassets\\js\\pages\\form-validation.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\invoice-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\pages\\invoice-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\invoice-list.js",
+      "PackagePath": "staticwebassets\\js\\pages\\invoice-list.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\iraq.js",
+      "PackagePath": "staticwebassets\\js\\pages\\iraq.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\italy.js",
+      "PackagePath": "staticwebassets\\js\\pages\\italy.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\map-vector.js",
+      "PackagePath": "staticwebassets\\js\\pages\\map-vector.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\membership-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\pages\\membership-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\page-croper.js",
+      "PackagePath": "staticwebassets\\js\\pages\\page-croper.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\russia.js",
+      "PackagePath": "staticwebassets\\js\\pages\\russia.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\spain.js",
+      "PackagePath": "staticwebassets\\js\\pages\\spain.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\us-aea-en.js",
+      "PackagePath": "staticwebassets\\js\\pages\\us-aea-en.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\us-lcc-en.js",
+      "PackagePath": "staticwebassets\\js\\pages\\us-lcc-en.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\us-merc-en.js",
+      "PackagePath": "staticwebassets\\js\\pages\\us-merc-en.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\us-mill-en.js",
+      "PackagePath": "staticwebassets\\js\\pages\\us-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pages\\w-chart.js",
+      "PackagePath": "staticwebassets\\js\\pages\\w-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\pcoded.js",
+      "PackagePath": "staticwebassets\\js\\pcoded.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\Jarallax.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\Jarallax.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\autoFill.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\autoFill.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\bootstrap-slider.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-slider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\bootstrap-switch-button.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-switch-button.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\bouncer.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bouncer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\buttons.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\buttons.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\choices.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\choices.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\ckeditor\\balloon\\ckeditor.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\ckeditor\\balloon\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\ckeditor\\classic\\ckeditor.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\ckeditor\\classic\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\ckeditor\\document\\ckeditor.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\ckeditor\\document\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\ckeditor\\inline\\ckeditor.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\ckeditor\\inline\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\clipboard.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\clipboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\croppr.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\croppr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dataTables.autoFill.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dataTables.autoFill.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dataTables.colReorder.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dataTables.colReorder.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dataTables.fixedColumns.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dataTables.fixedColumns.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dataTables.fixedHeader.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dataTables.fixedHeader.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dataTables.keyTable.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dataTables.keyTable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dataTables.rowReorder.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dataTables.rowReorder.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dataTables.select.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dataTables.select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\datepicker-full.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\datepicker-full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dragula.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dragula.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\dropzone-amd-module.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dropzone-amd-module.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\feather.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\flatpickr.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\flatpickr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\imask.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\imask.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\index.global.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\intro.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\intro.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jsvectormap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\jszip.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\keyTable.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\keyTable.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\module.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\module.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\notifier.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\notifier.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\pdfmake.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\peity-vanilla.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\peity-vanilla.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\prism.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\prism.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\quill.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\quill.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\responsive.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\responsive.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\scroller.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\scroller.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\simple-datatables.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\simple-datatables.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\simplebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\simplemde.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\simplemde.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\star-rating.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\star-rating.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\swiper-bundle.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\swiper-bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tiny-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\README.md",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\bower.json",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\composer.json",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\composer.json"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\icons\\default\\icons.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\icons\\default\\icons.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\icons\\default\\icons.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\icons\\default\\icons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\icons\\default\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\icons\\default\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\models\\dom\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\models\\dom\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\models\\dom\\model.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\models\\dom\\model.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\models\\dom\\model.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\models\\dom\\model.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\package.json",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\accordion\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\accordion\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\accordion\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\accordion\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\accordion\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\accordion\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\advlist\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\advlist\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\advlist\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\advlist\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\anchor\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\anchor\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\anchor\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\anchor\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\autolink\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\autolink\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\autolink\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\autolink\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\autoresize\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\autoresize\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\autoresize\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\autoresize\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\autosave\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\autosave\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\autosave\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\autosave\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\charmap\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\charmap\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\charmap\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\charmap\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\code\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\code\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\code\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\code\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\codesample\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\codesample\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\codesample\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\codesample\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\directionality\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\directionality\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\directionality\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\directionality\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\emoticons\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\emoticons\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojis.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\emoticons\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\emoticons\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\fullscreen\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\fullscreen\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\fullscreen\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\fullscreen\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ar.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\bg_BG.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\bg_BG.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ca.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\cs.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\da.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\de.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\el.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\en.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\en.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\es.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\eu.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fa.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fi.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fr_FR.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fr_FR.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\he_IL.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\he_IL.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hi.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hr.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hu_HU.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hu_HU.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\id.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\it.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ja.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\kk.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\kk.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ko_KR.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ko_KR.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ms.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nb_NO.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nb_NO.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nl.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pl.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_BR.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_BR.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_PT.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_PT.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ro.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ru.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sk.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sl_SI.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sl_SI.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sv_SE.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sv_SE.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\th_TH.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\th_TH.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\tr.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\uk.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\vi.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_CN.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_CN.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_TW.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_TW.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\image\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\image\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\image\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\image\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\importcss\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\importcss\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\importcss\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\importcss\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\insertdatetime\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\insertdatetime\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\insertdatetime\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\insertdatetime\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\link\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\link\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\link\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\link\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\lists\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\lists\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\lists\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\lists\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\media\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\media\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\media\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\media\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\nonbreaking\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\nonbreaking\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\nonbreaking\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\nonbreaking\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\pagebreak\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\pagebreak\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\pagebreak\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\pagebreak\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\preview\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\preview\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\preview\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\preview\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\print\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\print\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\quickbars\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\quickbars\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\quickbars\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\quickbars\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\quickbars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\save\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\save\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\save\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\save\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\searchreplace\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\searchreplace\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\searchreplace\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\searchreplace\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\table\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\table\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\table\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\table\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\template\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\template\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\template\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\template\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\visualblocks\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\visualblocks\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\visualblocks\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\visualblocks\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\visualchars\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\visualchars\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\visualchars\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\visualchars\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\wordcount\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\wordcount\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\wordcount\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\wordcount\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\dark\\content.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\dark\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\dark\\content.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\dark\\content.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\default\\content.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\default\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\default\\content.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\default\\content.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\default\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\default\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\document\\content.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\document\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\document\\content.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\document\\content.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\document\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\document\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\tinymce-5-dark\\content.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5-dark\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\tinymce-5-dark\\content.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5-dark\\content.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\tinymce-5\\content.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\tinymce-5\\content.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5\\content.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\writer\\content.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\writer\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\writer\\content.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\writer\\content.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\content\\writer\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\content\\writer\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.inline.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.inline.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.inline.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.inline.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.inline.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.inline.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.inline.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.inline.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\themes\\silver\\index.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\themes\\silver\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\themes\\silver\\theme.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\themes\\silver\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\themes\\silver\\theme.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\themes\\silver\\theme.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\tinymce.d.ts",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\tinymce.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\tinymce.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\tinymce.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\type-ahead.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\type-ahead.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\uppy.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\uppy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\vanillatree.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\vanillatree.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\vfs_fonts.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\wNumb.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\wNumb.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\wizard.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\wizard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\world-merc.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\world-merc.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\world.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\world.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\js\\plugins\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\json\\2500.txt",
+      "PackagePath": "staticwebassets\\json\\2500.txt"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\json\\datatable.column.json",
+      "PackagePath": "staticwebassets\\json\\datatable.column.json"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\json\\datatable.json",
+      "PackagePath": "staticwebassets\\json\\datatable.json"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\json\\file-upload.php",
+      "PackagePath": "staticwebassets\\json\\file-upload.php"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\json\\lazy.json",
+      "PackagePath": "staticwebassets\\json\\lazy.json"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\json\\root.json",
+      "PackagePath": "staticwebassets\\json\\root.json"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\json\\typehead\\countries.json",
+      "PackagePath": "staticwebassets\\json\\typehead\\countries.json"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\json\\typehead\\movies.json",
+      "PackagePath": "staticwebassets\\json\\typehead\\movies.json"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\json\\typehead\\nba.json",
+      "PackagePath": "staticwebassets\\json\\typehead\\nba.json"
+    },
+    {
+      "Id": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\wwwroot\\json\\typehead\\nhl.json",
+      "PackagePath": "staticwebassets\\json\\typehead\\nhl.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Contabsv_core.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Contabsv_core.props",
+      "PackagePath": "build\\Contabsv_core.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Contabsv_core.props",
+      "PackagePath": "buildMultiTargeting\\Contabsv_core.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Contabsv_core.props",
+      "PackagePath": "buildTransitive\\Contabsv_core.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

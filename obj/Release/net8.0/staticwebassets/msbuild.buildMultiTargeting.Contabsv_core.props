@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Contabsv_core.props" />
+</Project>

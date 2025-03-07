@@ -1,0 +1,277 @@
+﻿@page
+@model Contabsv_core.Pages.Ventas.Final.RegistrarModel
+@using Contabsv_core.Models
+@using System.Security.Claims
+@{
+}
+<div class="card">
+    <div class="card-header" style="padding: 6px 10px;">
+        <h6>REGISTRAR VENTA</h6>
+    </div>
+    <div class="card-body">
+        <form id="documentoForm" method="post">
+            <input type="hidden" asp-for="ventasConsumidor.idVentaConsumidor" value="0" />
+            <input type="hidden" asp-for="ventasConsumidor.numeroAnexo" value="2" />
+            <div class="row g-3">
+                <div class="col-lg-3">
+                    <label class="form-label">Fecha Emisión:</label>
+                    <input type="date" class="form-control form-control-sm" id="fechaEmision" asp-for="ventasConsumidor.fechaEmision">
+                    <span asp-validation-for="ventasConsumidor.fechaEmision" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-3">
+                    <label class="form-label">Fecha Presentación:</label>
+                    <input type="date" class="form-control form-control-sm" id="fechaPresentacion" asp-for="ventasConsumidor.fechaPresentacion">
+                    <span asp-validation-for="ventasConsumidor.fechaPresentacion" class="text-danger"></span>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <label class="form-label">Clase Documento:</label>
+                    <select id="idclaseDocumento" class="form-control form-select-sm" asp-for="ventasConsumidor.idClaseDocumento">
+                        @foreach (var item in ViewData["ClaseDocumentos"] as List<ClaseDocumentoModel>)
+                        {
+                            <option value="@item.id" >@item.nombre</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ventasConsumidor.idClaseDocumento" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-3">
+                    <label class="form-label">Tipo Documento:</label>
+                    <select class="form-select form-select-sm" id="idtipoDocumento" asp-for="ventasConsumidor.idTipoDocumento">
+                        @foreach (var item in ViewData["TipoDocumentos"] as List<TipoDocumentoModel>)
+                        {
+                            <option value="@item.id">@item.nombre</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ventasConsumidor.idTipoDocumento" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-3">
+                    <label class="form-label">Número Maquina Registradora:</label>
+                    <input type="text" class="form-control form-control-sm" id="numSerie" asp-for="ventasConsumidor.numeroMaquinaRegistradora">
+                    <span asp-validation-for="ventasConsumidor.numeroMaquinaRegistradora" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-3">
+                    <label class="form-label">Número Resolucion:</label>
+                    <input type="text" class="form-control form-control-sm" id="numSerie" asp-for="ventasConsumidor.numeroResolucion">
+                    <span asp-validation-for="ventasConsumidor.numeroResolucion" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-4">
+                    <label class="form-label">Serie Documento:</label>
+                    <input type="text" class="form-control form-control-sm" id="numeroDocumento" asp-for="ventasConsumidor.serieDocumento">
+                    <span asp-validation-for="ventasConsumidor.serieDocumento" class="text-danger"></span>
+                </div>
+                
+                <div class="col-lg-2">
+                    <label class="form-label">Num Control Interno:</label>
+                    <input type="text" class="form-control form-control-sm" id="numeroDocumento" asp-for="ventasConsumidor.numeroControlInterno">
+                    <span asp-validation-for="ventasConsumidor.numeroControlInterno" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-6">
+                    <label class="form-label">Clientes:</label>
+                    <select id="idCliente" class="form-control form-select-sm">
+                        <option value="">Seleccione un cliente</option>
+                        @foreach (var item in ViewData["Clientes"] as List<ClientesModel>)
+                        {
+                            <option value="@item.idClienteClt"
+                                    data-nit="@item.nitCliente"
+                                    data-nrc="@item.nrc"
+                                    data-search="@($"{item.nombreRazonSocial} {item.nombres} {item.apellidos} {item.nitCliente} {item.nrc}")"
+                                    >
+                                @(item.nombreRazonSocial ?? $"{item.nombres} {item.apellidos}")
+                            </option>
+                        }
+                    </select>
+                    <!-- Campo oculto para enviar idSector -->
+                    <input type="hidden" id="idClienteVal" asp-for="ventasConsumidor.idClienteCit">
+                    <span asp-validation-for="ventasConsumidor.idClienteCit" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-6">
+                    <input type="checkbox" id="mostrarCampos" class="form-check-input">
+                    <label for="mostrarCampos" class="form-label    ">Mostrar datos para Internacionesles e Importaciones</label>
+                </div>
+
+                <hr class="my-3">
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <label class="form-label">Exentas:</label>
+                    <input type="text" class="form-control form-control-sm"  asp-for="ventasConsumidor.ventasExentas">
+                    <span asp-validation-for="ventasConsumidor.ventasExentas" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3">
+                    <label class="form-label">No Sujetas:</label>
+                    <input type="text" class="form-control form-control-sm" asp-for="ventasConsumidor.ventasNoSujetas">
+                    <span asp-validation-for="ventasConsumidor.ventasNoSujetas" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3">
+                    <label class="form-label">Gravadas Locales:</label>
+                    <input type="text" class="form-control form-control-sm" id="gravadasLocales" asp-for="ventasConsumidor.ventasGravadasLocales">
+                    <span asp-validation-for="ventasConsumidor.ventasGravadasLocales" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3">
+                    <label class="form-label">Zona Franca:</label>
+                    <input type="text" class="form-control form-control-sm" asp-for="ventasConsumidor.ventasZonasFrancasDpa">
+                    <span asp-validation-for="ventasConsumidor.ventasZonasFrancasDpa" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-3 campos-ocultos">
+                    <label class="form-label">Internas Exentas No Proporcionalidad:</label>
+                    <input type="text" class="form-control form-control-sm"  asp-for="ventasConsumidor.ventasInternasExentasNoProporcionalidad">
+                    <span asp-validation-for="ventasConsumidor.ventasInternasExentasNoProporcionalidad" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3 campos-ocultos">
+                    <label class="form-label">Exportacion Centro America:</label>
+                    <input type="text" class="form-control form-control-sm"  asp-for="ventasConsumidor.exportacionesCentroamerica">
+                    <span asp-validation-for="ventasConsumidor.exportacionesCentroamerica" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3 campos-ocultos">
+                    <label class="form-label">Exportacion Fuera Centro America:</label>
+                    <input type="text" class="form-control form-control-sm"  asp-for="ventasConsumidor.exportacionesFueraCentroamerica">
+                    <span asp-validation-for="ventasConsumidor.exportacionesCentroamerica" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3 campos-ocultos">
+                    <label class="form-label">Terceros No Domiciliados:</label>
+                    <input type="text" class="form-control form-control-sm" asp-for="ventasConsumidor.ventasTercerosNoDomiciliados">
+                    <span asp-validation-for="ventasConsumidor.ventasTercerosNoDomiciliados" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 campos-ocultos">
+                    <label class="form-label">Exportacion de Servicios:</label>
+                    <input type="text" class="form-control form-control-sm"  asp-for="ventasConsumidor.exportacionesServicio">
+                    <span asp-validation-for="ventasConsumidor.exportacionesServicio" class="text-dangerdcasts"></span>
+                </div>
+                <div class="col-lg-3">
+                    <label class="form-label">Total Venta:</label>
+                    <input type="text" class="form-control form-control-sm" id="totalVenta" disabled="disabled" asp-for="ventasConsumidor.totalVentas">
+                    <span asp-validation-for="ventasConsumidor.totalVentas" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <hr class="my-3">
+                <div class="col-lg-3">
+                    <label class="form-label">Tipo Operación:</label>
+                    <select class="form-select form-select-sm" id="idTipoOperacion" asp-for="ventasConsumidor.idOperacion">
+                        @foreach (var item in ViewData["Operaciones"] as List<OperacionesModel>)
+                        {
+                            <option value="@item.id">@item.descripcion</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ventasConsumidor.idOperacion" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-3">
+                    <label class="form-label">Tipo Costo:</label>
+                    <select class="form-select form-select-sm" id="idTipoCostoGasto" asp-for="ventasConsumidor.idTipoOperacionCg">
+                        @foreach (var item in ViewData["TipoOperacionIG"] as List<TipoOperacionIGModel>)
+                        {
+                            <option value="@item.id">@item.descripcion</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ventasConsumidor.idTipoOperacionCg" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3">
+                    <label class="form-label">Total Doc:</label>
+                    <input type="text" class="form-control form-control-sm" id="totalDocumento" disabled="disabled">
+                </div>
+            </div>
+
+            <div class="mt-3 text-end">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        let checkBox = document.getElementById("mostrarCampos");
+        let campos = document.querySelectorAll(".campos-ocultos");
+
+        checkBox.checked = false;
+        campos.forEach(campo => campo.style.display = "none"); // Oculta completamente
+
+        checkBox.addEventListener("change", function () {
+            campos.forEach(campo => {
+                campo.style.display = this.checked ? "block" : "none"; // Muestra u oculta
+            });
+        });
+    });
+
+
+    $(document).ready(function () {
+
+        let campo = "#gravadasLocales"; // Solo un campo afectará el total
+
+        function actualizarTotales() {
+            let totalCompras = parseFloat($(campo).val()) || 0;
+            $("#totalVenta").val(totalCompras.toFixed(2));
+        }
+
+        // Evento para actualizar en tiempo real
+        $(campo).on("input", actualizarTotales);
+
+        // Inicializar el total al cargar la página
+        actualizarTotales();
+
+
+        $("#idCliente").select2({
+            placeholder: "Seleccione un proveedor...",
+            allowClear: true,
+            theme: "bootstrap-5",
+            templateResult: function (item) {
+                if (!item.id) return item.text; // Evita error con el placeholder
+
+                let nit = $(item.element).data("nit") || "N/A";
+                let nrc = $(item.element).data("nrc") ? ` | NRC: ${$(item.element).data("nrc")}` : "";
+
+                return $(`
+                        <div>
+                            <strong>${item.text}</strong><br>
+                            <small>NIT: ${nit}${nrc}</small>
+                        </div>
+                    `);
+            },
+            templateSelection: function (item) {
+                return item.text;
+            },
+            matcher: function (params, data) {
+                if ($.trim(params.term) === '') {
+                    return data;
+                }
+
+                // Buscar en nombre, NIT y NRC
+                let searchText = $(data.element).data("search") || "";
+                if (searchText.toLowerCase().includes(params.term.toLowerCase())) {
+                    return data;
+                }
+                return null;
+            }
+        });
+
+        // Cuando cambia el proveedor, actualiza el idSector oculto
+        $("#idCliente").on("change", function () {
+            var idClienteInt = $(this).val() || 0;
+            $("#idClienteVal").val(idClienteInt);
+        });
+
+    });
+
+
+</script>

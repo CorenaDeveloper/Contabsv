@@ -1,0 +1,40 @@
+﻿.inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0.5em 0;
+    width: 100%;
+    position: relative;
+}
+
+    .inputGroup input {
+        font-size: 14px; /* Tamaño de letra más pequeño */
+        padding: 8px; /* Hace el input más delgado */
+        outline: none;
+        border: 2px solid #85929e; /* Morado mate */
+        background-color: transparent;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .inputGroup label {
+        font-size: 12px; /* Reduce el tamaño de la letra */
+        position: absolute;
+        left: 12px;
+        top: 40%; /* Más arriba */
+        transform: translateY(-50%);
+        pointer-events: none;
+        transition: all 0.3s ease;
+        color: #abb2b9; /* Un morado más oscuro */
+        background: white;
+        padding: 0 5px;
+    }
+
+    .inputGroup input:focus ~ label,
+    .inputGroup input:valid ~ label {
+        transform: translateY(-130%) scale(0.85);
+        color: #d2b4de; /* Mantiene el morado mate */
+        padding: 0 5px;
+    }
+
+    .inputGroup input:focus {
+        border-color: #d2b4de; /* Morado mate */
+    }

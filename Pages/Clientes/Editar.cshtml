@@ -1,0 +1,107 @@
+﻿@page
+@model Contabsv_core.Pages.Clientes.EditarModel
+@using Contabsv_core.Models
+@using System.Security.Claims
+@{
+    var idCliente = User.FindFirst("IdCliente")?.Value ?? "0";
+}
+<div class="card">
+    <div class="card-header">
+        <h5>Editar Cliente</h5>
+    </div>
+    <div class="card-body">
+        <form method="post" asp-page-handler="Mod">
+            <div class="row g-3">
+                <div class="col-lg-4">
+                    <label asp-for="clt.nombres" class="form-label">Nombres:</label>
+                    <input asp-for="clt.nombres" class="form-control form-control-sm" />
+                    <small class="form-text text-muted">Solo si es persona natural.</small>
+                </div>
+
+                <div class="col-lg-4">
+                    <label asp-for="clt.apellidos" class="form-label">Apellidos:</label>
+                    <input asp-for="clt.apellidos" class="form-control form-control-sm" />
+                    <small class="form-text text-muted">Solo si es persona natural.</small>
+                </div>
+
+                <div class="col-lg-4">
+                    <label class="form-label">Tipo Proveedor:</label>
+                    <div>
+                        <div class="form-check form-check-inline">
+                            <input asp-for="clt.personaJuridica" class="form-check-input" type="radio" value="true" id="tipoJuridico" />
+                            <label class="form-check-label" for="tipoJuridico">Jurídica</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input asp-for="clt.personaJuridica" class="form-check-input" type="radio" value="false" id="tipoNatural" />
+                            <label class="form-check-label" for="tipoNatural">Natural</label>
+                        </div>
+                    </div>
+                    <small class="form-text">Seleccione el tipo de clt</small>
+                </div>
+
+                <div class="col-lg-4">
+                    <label asp-for="clt.nombreRazonSocial" class="form-label">Razon Social:</label>
+                    <input asp-for="clt.nombreRazonSocial" class="form-control form-control-sm" />
+                    <small class="form-text text-muted">Solo si es empresa jurídica.</small>
+                </div>
+
+                <div class="col-lg-4">
+                    <label asp-for="clt.nombreComercial" class="form-label">Nombre Comercial:</label>
+                    <input asp-for="clt.nombreComercial" class="form-control form-control-sm" />
+                    <small class="form-text text-muted">Solo si es empresa jurídica.</small>
+                </div>
+
+                <div class="col-lg-4">
+                    <label asp-for="clt.duiCliente" class="form-label">DUI Cliente:</label>
+                    <input asp-for="clt.duiCliente" class="form-control form-control-sm" />
+                </div>
+
+                <div class="col-lg-4">
+                    <label asp-for="clt.representanteLegal" class="form-label">Representante Legal:</label>
+                    <input asp-for="clt.representanteLegal" class="form-control form-control-sm" />
+                    <small class="form-text text-muted">Aplica si es empresa jurídica.</small>
+                </div>
+
+                <div class="col-lg-4">
+                    <label asp-for="clt.duiRepresentanteLegal" class="form-label">Dui Representante:</label>
+                    <input asp-for="clt.duiRepresentanteLegal" class="form-control form-control-sm" />
+                    <small class="form-text text-muted">Aplica si es empresa jurídica.</small>
+                </div>
+
+                <div class="col-lg-4">
+                    <label asp-for="clt.telefonoCliente" class="form-label">Telefono:</label>
+                    <input asp-for="clt.telefonoCliente" class="form-control form-control-sm" />
+                </div>
+
+                <div class="col-lg-4">
+                    <label asp-for="clt.celular" class="form-label">Celular:</label>
+                    <input asp-for="clt.celular" class="form-control form-control-sm" />
+                </div>
+
+                <div class="col-lg-4">
+                    <label asp-for="clt.nrc" class="form-label">NCR:</label>
+                    <input asp-for="clt.nrc" class="form-control form-control-sm" />
+                </div>
+
+                <div class="col-lg-4">
+                    <label asp-for="clt.nitCliente" class="form-label"> Nit Cliente:</label>
+                    <input asp-for="clt.nitCliente" class="form-control form-control-sm" />
+                </div>
+
+                <div class="col-lg-4">
+                    <label asp-for="clt.tipoContribuyente" class="form-label">Tipo Contribuyente</label>
+                    <select asp-for="clt.tipoContribuyente" class="form-select form-select-sm">
+                        <option value="pequeño">Pequeño</option>
+                        <option value="mediano">Mediano</option>
+                        <option value="grande">Grande</option>
+                    </select>
+                </div>
+            </div>
+
+            <input asp-for="clt.idClienteClt" type="hidden" />
+            <div class="mt-3 text-end">
+                <button type="submit" class="btn btn-primary">Modificar</button>
+            </div>
+        </form>
+    </div>
+</div>

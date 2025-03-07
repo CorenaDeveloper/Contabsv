@@ -1,0 +1,250 @@
+﻿@page
+@using System.Security.Claims
+@model Contabsv_core.Pages.Proveedores.ListaModel
+@using Microsoft.AspNetCore.Antiforgery
+@inject IAntiforgery Antiforgery
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var idCliente = User.FindFirst("IdCliente")?.Value ?? "0";
+    var tokens = Antiforgery.GetAndStoreTokens(HttpContextAccessor.HttpContext);
+}
+
+<div class="card">
+    <div class="card-header" style="padding: 6px 10px;">
+        <h6>Proveedores</h6>
+    </div>
+    <div class="card-body">
+        <div id="spinner" class="text-center">
+            <div class="spinner-grow" style="width: 3rem; height: 3rem" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+        <table id="tblProveedores" class="display" style="width:100% ; display: none;">
+            <thead>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="clienteData" data-idcliente="@idCliente"></div>
+
+<div id="modalEliminar" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Modal Title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in,
+                    egestas eget quam. Morbi leo
+                    risus, porta ac consectetur ac, vestibulum at eros.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="eliminarProveedorModal" class="modal fade" tabindex="-1" aria-labelledby="eliminarProveedorModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <form id="eliminarProveedorForm" method="post" asp-page-handler="Delete">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="eliminarProveedorModalLabel">Confirmar Eliminación</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>¿Estás seguro de que deseas eliminar este proveedor?</p>
+                    <input type="hidden" name="idProveedor" id="idProveedorInput" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Ajusta la columna de dirección */
+    td:nth-child(10) { 
+        max-width: 200px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+<script>
+    let table;
+    $(document).ready(function () {
+        var idCliente = $("#clienteData").data("idcliente");
+
+        if ($.fn.dataTable.isDataTable('#tblProveedores')) {
+            $('#tblProveedores').DataTable().destroy();
+        }
+
+        table = new DataTable('#tblProveedores', {
+            responsive: true,
+            rowReorder: {
+                selector: 'td:nth-child(2)'
+            },
+            processing: true,
+            serverSide: false,
+            ajax: {
+                url: "/Proveedores/Lista?handler=Proveedores",
+                type: "GET",
+                dataType: "json",
+                dataSrc: function (json) {
+                    if (!json || !json) {
+                        showAlert("danger", "Error al guardar: " + json);
+                        return [];
+                    }
+                    return json;
+                },
+                error: function (xhr, status, error) {
+                    showAlert("danger", "Error al guardar: " + error);
+                }
+            },
+            columns: [
+                {
+                    data: null,
+                    title: "NOMBRE",
+                    render: function (data, type, row) {
+                        if (row.personaJuridica) {
+                            return row.nombreRazonSocial ?? '';
+                        } else {
+                            const nombres = row.nombres ?? '';
+                            const apellidos = row.apellidos ?? '';
+                            return `${nombres} ${apellidos}`.trim();
+                        }
+                    }
+                },
+                {
+                    data: "personaJuridica",
+                    title: "JURIDICA",
+                    render: function (data) {
+                        return (data = null ? '' : `<input type="checkbox" ${data ? "checked" : ""} disabled>`);
+                    },
+                    className: 'text-center'
+                },
+                {
+                    data: "nombreComercial",
+                    title: "NOMBRE  COMERCIAL",
+                    render: function (data) {
+                        return (data = null ? '' : data);
+                    }
+                },
+                {
+                    data: "nrc",
+                    title: "NRC",
+                    render: function (data) {
+                        return (data = null ? '' : data);
+                    }
+                },
+                {
+                    data: "nitProveedor",
+                    title: "NIT",
+                    render: function (data) {
+                        return (data = null ? '' : data);
+                    }
+                },
+                {
+                    data: "celular",
+                    title: "CELULAR",
+                    render: function (data) {
+                        return (data = null ? '' : data);
+                    }
+                },
+                {
+                    data: "email",
+                    title: "EMAIL",
+                    render: function (data) {
+                        return (data = null ? '' : data);
+                    }
+                },
+                {
+                    data: "tipoContribuyente",
+                    title: "CONTRIBUYENTE",
+                    render: function (data) {
+                        return (data = null ? '' : data);
+                    }
+                }, 
+                {
+                    data: "direccion",
+                    title: "DIRECCION",
+                    render: function (data, type, row) {
+                        if (!data) return ''; // Evitar nulls
+
+                        // Limitar a 50 caracteres y agregar "..." si es más largo
+                        var shortText = data.length > 50 ? data.substring(0, 50) + "..." : data;
+
+                        // Mostrar el texto completo como tooltip al pasar el mouse
+                        return `<span title="${data}" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; max-width: 200px;">${shortText}</span>`;
+                    }
+                },
+                {
+                    data: null,
+                    title: "OPT",
+                    orderable: false,
+                    searchable: false,
+                    render: function (data, type, row) {
+                        return `
+                                <button class="btn btn-sm btn-primary btn-rounded  btn-sm edit-btn" data-id="${row.idProveedor}">
+                                    <i class="fas fa-edit"></i> 
+                                </button>
+                                 <button class="btn btn-sm btn-danger btn-rounded  btn-sm delete-btn" data-id="${row.idProveedor}">
+                                    <i class="fas fa-trash"></i> 
+                                </button>
+                            `;
+                    }
+                }
+            ],
+            "initComplete": function (settings, json) {
+                // Ocultar el spinner y mostrar la tabla
+                $("#spinner").hide();
+                $("#tblProveedores").show();
+
+            },
+            language: {
+                search: "Buscar:",
+                lengthMenu: "Mostrar _MENU_ registros por página",
+                info: "Mostrando _START_ a _END_ de _TOTAL_ registros",
+                infoEmpty: "No hay registros disponibles",
+                infoFiltered: "(filtrado de _MAX_ registros totales)",
+                loadingRecords: "Cargando...",
+                zeroRecords: "No se encontraron resultados",
+                emptyTable: "No hay datos disponibles en la tabla",
+                paginate: {
+                    first: "<span class='fas fa-angle-double-left'></span>",
+                    last: "<span class='fas fa-angle-double-right'></span>",
+                    next: "<span class='fas fa-chevron-right'></span>",
+                    previous: "<span class='fas fa-chevron-left'></span>"
+                }
+            }
+        });
+
+        $('#tblProveedores tbody').on('click', '.edit-btn', function () {
+            let id = $(this).data('id');
+            window.location.href = `Editar?id=${id}`;
+        });
+
+        $('#tblProveedores tbody').on('click', '.delete-btn', function () {
+            var id = $(this).data('id');
+            $('#idProveedorInput').val(id);
+            $('#eliminarProveedorModal').modal('show');
+        });
+
+
+     
+
+    });
+</script>

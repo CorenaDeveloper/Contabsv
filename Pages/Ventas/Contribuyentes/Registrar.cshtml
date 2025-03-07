@@ -1,0 +1,261 @@
+﻿@page
+@model Contabsv_core.Pages.Ventas.Contribuyentes.RegistrarModel
+@using Contabsv_core.Models
+@{
+}
+<div class="card">
+    <div class="card-header" style="padding: 6px 10px;">
+        <h6>REGISTRAR VENTA</h6>
+    </div>
+    <div class="card-body">
+        <form id="documentoForm" method="post">
+            <input type="hidden" asp-for="ventasContribuyente.idVentaContribuyentes" value="0" />
+            @* <input type="hidden" asp-for="vent" value="2" /> *@
+            <div class="row g-3">
+                <div class="col-lg-3">
+                    <label class="form-label">Fecha Emisión:</label>
+                    <input type="date" class="form-control form-control-sm" id="fechaEmision" asp-for="ventasContribuyente.fechaEmisionDocumento">
+                    <span asp-validation-for="ventasContribuyente.fechaEmisionDocumento" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-3">
+                    <label class="form-label">Fecha Presentación:</label>
+                    <input type="date" class="form-control form-control-sm" id="fechaPresentacion" asp-for="ventasContribuyente.fechaPresentacion">
+                    <span asp-validation-for="ventasContribuyente.fechaPresentacion" class="text-danger"></span>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <label class="form-label">Clase Documento:</label>
+                    <select id="idclaseDocumento" class="form-control form-select-sm" asp-for="ventasContribuyente.idClaseDocumento">
+                        @foreach (var item in ViewData["ClaseDocumentos"] as List<ClaseDocumentoModel>)
+                        {
+                            <option value="@item.id">@item.nombre</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ventasContribuyente.idClaseDocumento" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-3">
+                    <label class="form-label">Tipo Documento:</label>
+                    <select class="form-select form-select-sm" id="idtipoDocumento" asp-for="ventasContribuyente.idTipoDocumento">
+                        @foreach (var item in ViewData["TipoDocumentos"] as List<TipoDocumentoModel>)
+                        {
+                            <option value="@item.id">@item.nombre</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ventasContribuyente.idTipoDocumento" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-3">
+                    <label class="form-label">Numerod Documento:</label>
+                    <input type="text" class="form-control form-control-sm" id="numSerie" asp-for="ventasContribuyente.numeroDocumento">
+                    <span asp-validation-for="ventasContribuyente.numeroDocumento" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-3">
+                    <label class="form-label">Número Resolucion:</label>
+                    <input type="text" class="form-control form-control-sm" id="numSerie" asp-for="ventasContribuyente.numeroResolucion">
+                    <span asp-validation-for="ventasContribuyente.numeroResolucion" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-4">
+                    <label class="form-label">Serie Documento:</label>
+                    <input type="text" class="form-control form-control-sm" id="numeroDocumento" asp-for="ventasContribuyente.serieDocumento">
+                    <span asp-validation-for="ventasContribuyente.serieDocumento" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-2">
+                    <label class="form-label">Num Control Interno:</label>
+                    <input type="text" class="form-control form-control-sm" id="numeroDocumento" asp-for="ventasContribuyente.numeroControlInterno">
+                    <span asp-validation-for="ventasContribuyente.numeroControlInterno" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-6">
+                    <label class="form-label">Clientes:</label>
+                    <select id="idCliente" class="form-control form-select-sm">
+                        <option value="">Seleccione un cliente</option>
+                        @foreach (var item in ViewData["Clientes"] as List<ClientesModel>)
+                        {
+                            <option value="@item.idClienteClt"
+                                    data-nit="@item.nitCliente"
+                                    data-nrc="@item.nrc"
+                                    data-search="@($"{item.nombreRazonSocial} {item.nombres} {item.apellidos} {item.nitCliente} {item.nrc}")">
+                                @(item.nombreRazonSocial ?? $"{item.nombres} {item.apellidos}")
+                            </option>
+                        }
+                    </select>
+                    <!-- Campo oculto para enviar idSector -->
+                    <input type="hidden" id="idClienteVal" asp-for="ventasContribuyente.idClienteCit">
+                    <span asp-validation-for="ventasContribuyente.idClienteCit" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-6">
+                    <input type="checkbox" id="mostrarCampos" class="form-check-input">
+                    <label for="mostrarCampos" class="form-label    ">Mostrar datos para Internacionesles e Importaciones</label>
+                </div>
+
+                <hr class="my-3">
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <label class="form-label">Exentas:</label>
+                    <input type="text" class="form-control form-control-sm" asp-for="ventasContribuyente.ventasExentas">
+                    <span asp-validation-for="ventasContribuyente.ventasExentas" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3">
+                    <label class="form-label">No Sujetas:</label>
+                    <input type="text" class="form-control form-control-sm" asp-for="ventasContribuyente.ventasNoSujetas">
+                    <span asp-validation-for="ventasContribuyente.ventasNoSujetas" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3">
+                    <label class="form-label">Gravadas Locales:</label>
+                    <input type="text" class="form-control form-control-sm" id="gravadasLocales" asp-for="ventasContribuyente.ventasGravadasLocales">
+                    <span asp-validation-for="ventasContribuyente.ventasGravadasLocales" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3">
+                    <label class="form-label">Debito Fiscal:</label>
+                    <input type="text" class="form-control form-control-sm" asp-for="ventasContribuyente.debitoFiscal">
+                    <span asp-validation-for="ventasContribuyente.debitoFiscal" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-3 campos-ocultos">
+                    <label class="form-label">Cuenta de Tercero No Domiciliado:</label>
+                    <input type="text" class="form-control form-control-sm" asp-for="ventasContribuyente.ventasTercerosNoDomiciliados">
+                    <span asp-validation-for="ventasContribuyente.ventasTercerosNoDomiciliados" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3 campos-ocultos">
+                    <label class="form-label">Debito Fiscal Tercero No Domiciliado:</label>
+                    <input type="text" class="form-control form-control-sm" asp-for="ventasContribuyente.debitoFiscalVentasTerceros">
+                    <span asp-validation-for="ventasContribuyente.debitoFiscalVentasTerceros" class="text-danger"></span>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <label class="form-label">Total Venta:</label>
+                    <input type="text" class="form-control form-control-sm" id="totalVenta" disabled="disabled" asp-for="ventasContribuyente.totalVentas">
+                    <span asp-validation-for="ventasContribuyente.totalVentas" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <hr class="my-3">
+                <div class="col-lg-3">
+                    <label class="form-label">Tipo Operación:</label>
+                    <select class="form-select form-select-sm" id="idTipoOperacion" asp-for="ventasContribuyente.idOperacion">
+                        @foreach (var item in ViewData["Operaciones"] as List<OperacionesModel>)
+                        {
+                            <option value="@item.id">@item.descripcion</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ventasContribuyente.idOperacion" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-3">
+                    <label class="form-label">Tipo Costo:</label>
+                    <select class="form-select form-select-sm" id="idTipoCostoGasto" asp-for="ventasContribuyente.idTipoOperacionCg">
+                        @foreach (var item in ViewData["TipoOperacionIG"] as List<TipoOperacionIGModel>)
+                        {
+                            <option value="@item.id">@item.descripcion</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ventasContribuyente.idTipoOperacionCg" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3">
+                    <label class="form-label">Total Doc:</label>
+                    <input type="text" class="form-control form-control-sm" id="totalDocumento" disabled="disabled">
+                </div>
+            </div>
+
+            <div class="mt-3 text-end">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        let checkBox = document.getElementById("mostrarCampos");
+        let campos = document.querySelectorAll(".campos-ocultos");
+
+        checkBox.checked = false;
+        campos.forEach(campo => campo.style.display = "none"); // Oculta completamente
+
+        checkBox.addEventListener("change", function () {
+            campos.forEach(campo => {
+                campo.style.display = this.checked ? "block" : "none"; // Muestra u oculta
+            });
+        });
+    });
+
+
+    $(document).ready(function () {
+
+        let campo = "#gravadasLocales"; // Solo un campo afectará el total
+
+        function actualizarTotales() {
+            let totalCompras = parseFloat($(campo).val()) || 0;
+            $("#totalVenta").val(totalCompras.toFixed(2));
+        }
+
+        // Evento para actualizar en tiempo real
+        $(campo).on("input", actualizarTotales);
+
+        // Inicializar el total al cargar la página
+        actualizarTotales();
+
+
+        $("#idCliente").select2({
+            placeholder: "Seleccione un proveedor...",
+            allowClear: true,
+            theme: "bootstrap-5",
+            templateResult: function (item) {
+                if (!item.id) return item.text; // Evita error con el placeholder
+
+                let nit = $(item.element).data("nit") || "N/A";
+                let nrc = $(item.element).data("nrc") ? ` | NRC: ${$(item.element).data("nrc")}` : "";
+
+                return $(`
+                            <div>
+                                <strong>${item.text}</strong><br>
+                                <small>NIT: ${nit}${nrc}</small>
+                            </div>
+                        `);
+            },
+            templateSelection: function (item) {
+                return item.text;
+            },
+            matcher: function (params, data) {
+                if ($.trim(params.term) === '') {
+                    return data;
+                }
+
+                // Buscar en nombre, NIT y NRC
+                let searchText = $(data.element).data("search") || "";
+                if (searchText.toLowerCase().includes(params.term.toLowerCase())) {
+                    return data;
+                }
+                return null;
+            }
+        });
+
+        // Cuando cambia el proveedor, actualiza el idSector oculto
+        $("#idCliente").on("change", function () {
+            var idClienteInt = $(this).val() || 0;
+            $("#idClienteVal").val(idClienteInt);
+        });
+
+    });
+
+
+</script>
