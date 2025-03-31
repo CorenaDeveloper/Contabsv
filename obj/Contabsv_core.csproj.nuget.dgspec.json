@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\Contabsv_core.csproj": {}
+    "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv\\Contabsv_core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\Contabsv_core.csproj": {
+    "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv\\Contabsv_core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\Contabsv_core.csproj",
+        "projectUniqueName": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv\\Contabsv_core.csproj",
         "projectName": "Contabsv_core",
-        "projectPath": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\Contabsv_core.csproj",
+        "projectPath": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv\\Contabsv_core.csproj",
         "packagesPath": "C:\\Users\\programador04\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\obj\\",
+        "outputPath": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\programador04\\AppData\\Roaming\\NuGet\\NuGet.Config",

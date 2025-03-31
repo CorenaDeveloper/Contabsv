@@ -55,33 +55,39 @@ namespace Contabsv_core.Pages.Proveedores
         public async Task<IActionResult> OnPostModAsync()
         {
 
-            Console.WriteLine($"Datos de Actualizar: {JsonSerializer.Serialize(Proveedor)}");
+            //Console.WriteLine($"Datos de Actualizar: {JsonSerializer.Serialize(Proveedor)}");
             try
             {
-                bool success = await _apiService.ActualizarProveedor(Proveedor);
-                if (success)
+                var response = await _apiService.ActualizarProveedor(Proveedor); 
+                if (response.Success)
                 {
-                    TempData["Mensaje"] = "Proveedor actualizado con éxito.";
+                    TempData["Mensaje"] = response.Message ?? "Proveedor actualizado con éxito.";
                     TempData["TipoMensaje"] = "success";
+
+                    // Redirige a la lista de proveedores si todo salió bien
                     return RedirectToPage("/Proveedores/Lista");
                 }
                 else
                 {
-                    TempData["Mensaje"] = "Error al actualizar el proveedor.";
+                    TempData["Mensaje"] = response.Message ?? "Error al actualizar el proveedor.";
                     TempData["TipoMensaje"] = "danger";
-                    return Page(); // Permanece en la misma página para mostrar el error
+
+                    // Permanece en la misma página para mostrar el mensaje de error
+                    return Page();
                 }
             }
             catch (HttpRequestException ex)
             {
                 TempData["Mensaje"] = $"No se pudo conectar con el servicio de proveedores, {ex.Message}";
                 TempData["TipoMensaje"] = "danger";
+
                 return Page();
             }
             catch (Exception ex)
             {
                 TempData["Mensaje"] = $"Ocurrió un error inesperado, {ex.Message}";
                 TempData["TipoMensaje"] = "danger";
+
                 return Page();
             }
         }

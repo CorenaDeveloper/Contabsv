@@ -54,21 +54,23 @@ namespace Contabsv_core.Pages.Compras
         {
 
             Console.WriteLine($"Datos de Actualizar: {JsonSerializer.Serialize(Compra)}");
+            var idCompra = Compra.idDocCompra;
+
             try
             {
-                bool success = await _apiService.ActualizarCompras(Compra);
-                if (success)
+                var success = await _apiService.ActualizarCompras(Compra);
+                if (success.Success)
                 {
-                    TempData["Mensaje"] = "Compra actualizado con éxito.";
+                    TempData["Mensaje"] = success.Message;
                     TempData["TipoMensaje"] = "success";
                     return RedirectToPage("/Compras/Listar");
                 }
                 else
                 {
-                    TempData["Mensaje"] = "Error al actualizar Compra.";
+                    TempData["Mensaje"] = success.Message;
                     TempData["TipoMensaje"] = "danger";
                     await CargarViewDataAsync();
-                    return Page(); // Permanece en la misma página para mostrar el error
+                    return RedirectToPage("/Compras/Editar", new { id = idCompra });
                 }
             }
             catch (HttpRequestException ex)
@@ -76,14 +78,14 @@ namespace Contabsv_core.Pages.Compras
                 TempData["Mensaje"] = $"No se pudo conectar con el servicio de Compras, {ex.Message}";
                 TempData["TipoMensaje"] = "danger";
                 await CargarViewDataAsync();
-                return Page();
+                return RedirectToPage("/Compras/Editar", new { id = idCompra });
             }
             catch (Exception ex)
             {
                 TempData["Mensaje"] = $"Ocurrió un error inesperado, {ex.Message}";
                 TempData["TipoMensaje"] = "danger";
                 await CargarViewDataAsync();
-                return Page();
+                return RedirectToPage("/Compras/Editar", new { id = idCompra });
             }
         }
 

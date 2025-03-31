@@ -7,6 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\js\funcionBotonesTabla.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\funcionBotonesTabla.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\funcionBotonesTabla.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Antiforgery" Version="2.3.0" />
   </ItemGroup>
 

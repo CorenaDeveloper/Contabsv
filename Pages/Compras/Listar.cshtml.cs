@@ -37,29 +37,29 @@ namespace Contabsv_core.Pages.Compras
             return new JsonResult(compras, new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
         }
 
-        /// <summary>
-        /// ELIMINA LA COMPRA
-        /// </summary>
+
         public async Task<IActionResult> OnPostDeleteAsync(int idCompra)
         {
             try
             {
                 var resultado = await _apiService.DeleteCompras(idCompra);
-                if (resultado)
+                if (resultado.Success)
                 {
-                    TempData["Mensaje"] = "Compra eliminado con éxito.";
+                    TempData["Mensaje"] = resultado.Message;
                     TempData["TipoMensaje"] = "success";
                     return RedirectToPage();
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Error al eliminar Compra.");
+                    TempData["Mensaje"] = resultado.Message;
+                    TempData["TipoMensaje"] = "danger";
                     return Page();
                 }
             }
             catch (Exception ex)
             {
-                ModelState.AddModelError(string.Empty, $"Ocurrió un error: {ex.Message}");
+                TempData["Mensaje"] = ex.Message;
+                TempData["TipoMensaje"] = "danger";
                 return Page();
             }
         }

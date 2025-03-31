@@ -1,40 +1,162 @@
-﻿.inputGroup {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0.5em 0;
-    width: 100%;
-    position: relative;
+﻿.input-border-bottom {
+    border: none; /* Elimina todos los bordes */
+    border-bottom: 1px solid #ccc; /* Agrega solo el borde inferior */
+    border-radius: 0; /* Sin bordes redondeados */
+    background-color: transparent; /* Fondo transparente si quieres */
+    box-shadow: none !important; /* Elimina el box shadow de Bootstrap */
 }
 
-    .inputGroup input {
-        font-size: 14px; /* Tamaño de letra más pequeño */
-        padding: 8px; /* Hace el input más delgado */
-        outline: none;
-        border: 2px solid #85929e; /* Morado mate */
-        background-color: transparent;
-        border-radius: 8px;
-        width: 100%;
+    .input-border-bottom:focus {
+        border-bottom: 1px solid #007bff; /* Cambia el color al enfocar (azul bootstrap) */
+        outline: none; /* Elimina el borde de enfoque */
+        box-shadow: none !important; /* Quita cualquier sombra de enfoque */
     }
 
-    .inputGroup label {
-        font-size: 12px; /* Reduce el tamaño de la letra */
+
+/*TERCER BOTON*/
+
+.animated-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 10px 36px;
+    border: 4px solid;
+    border-color: transparent;
+    font-size: 13px;
+    background-color:;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #1f387e;
+    box-shadow: 0 0 0 2px #ffffff;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+    .animated-button svg {
         position: absolute;
-        left: 12px;
-        top: 40%; /* Más arriba */
-        transform: translateY(-50%);
-        pointer-events: none;
-        transition: all 0.3s ease;
-        color: #abb2b9; /* Un morado más oscuro */
-        background: white;
-        padding: 0 5px;
+        width: 24px;
+        fill: #1f387e;
+        z-index: 9;
+        transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
     }
 
-    .inputGroup input:focus ~ label,
-    .inputGroup input:valid ~ label {
-        transform: translateY(-130%) scale(0.85);
-        color: #d2b4de; /* Mantiene el morado mate */
-        padding: 0 5px;
+    .animated-button .arr-1 {
+        right: 16px;
     }
 
-    .inputGroup input:focus {
-        border-color: #d2b4de; /* Morado mate */
+    .animated-button .arr-2 {
+        left: -25%;
     }
+
+    .animated-button .circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 20px;
+        height: 20px;
+        background-color: #053b73;
+        border-radius: 50%;
+        opacity: 0;
+        transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .animated-button .text {
+        position: relative;
+        z-index: 1;
+        transform: translateX(-12px);
+        transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .animated-button:hover {
+        box-shadow: 0 0 0 12px transparent;
+        color: #212121;
+        border-radius: 12px;
+        color: white !important; /* Texto cambia a blanco */
+    }
+
+        .animated-button:hover .arr-1 {
+            right: -25%;
+        }
+
+        .animated-button:hover .arr-2 {
+            left: 16px;
+        }
+
+        .animated-button:hover .text {
+            transform: translateX(12px);
+        }
+
+        .animated-button:hover svg {
+            fill: white !important;
+        }
+
+    .animated-button:active {
+        scale: 0.95;
+        box-shadow: 0 0 0 4px transparent;
+    }
+
+    .animated-button:hover .circle {
+        width: 220px;
+        height: 220px;
+        opacity: 1;
+    }
+
+
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    gap: 10px; /* Espacio entre los botones */
+    padding: 15px; /* Margen inferior dentro de la tarjeta */
+}
+
+/* Estilos para el botón de cancelar */
+.cancel-btn {
+    background-color: #f8d7da; /* Rojo mate muy suave */
+    color: #721c24; /* Texto en tono rojo oscuro */
+    border: 1px solid #f5c6cb;
+}
+
+    .cancel-btn:hover {
+        background-color: #f5c6cb; /* Un poco más fuerte al pasar el mouse */
+    }
+
+
+@media screen and (max-width: 600px) {
+
+    .button-container {
+        flex-direction: column; /* Los botones se apilan verticalmente */
+        align-items: stretch; /* Para que ocupen el ancho disponible */
+        gap: 8px; /* Un poco menos de espacio entre ellos */
+        padding: 10px; /* Reduce el padding */
+    }
+
+        .button-container button {
+            width: 100%; /* Ocupar todo el ancho del contenedor */
+            font-size: 12px; /* Reduce el tamaño de la fuente */
+            padding: 8px 16px; /* Menos padding horizontal */
+        }
+
+    .animated-button {
+        padding: 8px 16px;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+
+        .animated-button .text {
+            transform: translateX(0); /* Centra el texto en pantallas pequeñas */
+        }
+
+        .animated-button:hover .text {
+            transform: translateX(0); /* Evita movimiento en hover para pantallas pequeñas */
+        }
+
+        .animated-button .arr-1,
+        .animated-button .arr-2,
+        .animated-button .circle {
+            display: none; /* Oculta los íconos y la animación para hacerlo más simple en móviles */
+        }
+}

@@ -9,83 +9,123 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Contabsv_core
 build_property.RootNamespace = Contabsv_core
-build_property.ProjectDir = C:\Users\programador04\Documents\GitHub\Contabsv_core\
+build_property.ProjectDir = C:\Users\programador04\Documents\GitHub\Contabsv\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\programador04\Documents\GitHub\Contabsv_core
+build_property.MSBuildProjectDirectory = C:\Users\programador04\Documents\GitHub\Contabsv
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Clientes/Editar.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/bajoConstruccion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYmFqb0NvbnN0cnVjY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Clientes/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Clientes/Lista.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Clientes/Lista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Clientes/Registrar.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Clientes/Registrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcUmVnaXN0cmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Compras/Editar.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Compras/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcHJhc1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Compras/Listar.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Compras/Listar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcHJhc1xMaXN0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Compras/RegistrarCprInterna.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Compras/RegistrarCprInterna.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcHJhc1xSZWdpc3RyYXJDcHJJbnRlcm5hLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Error.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Index.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Login.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Privacy.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Proveedores/Editar.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Proveedores/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmVlZG9yZXNcRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Proveedores/Lista.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Proveedores/Lista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmVlZG9yZXNcTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Proveedores/Registrar.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Proveedores/Registrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmVlZG9yZXNcUmVnaXN0cmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Shared/AccessDenied.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Shared/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEFjY2Vzc0RlbmllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/_ViewImports.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/TablasAuxiliares/Resoluciones/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGFzQXV4aWxpYXJlc1xSZXNvbHVjaW9uZXNcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/TablasAuxiliares/Resoluciones/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGFzQXV4aWxpYXJlc1xSZXNvbHVjaW9uZXNcTGlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/TablasAuxiliares/Resoluciones/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGFzQXV4aWxpYXJlc1xSZXNvbHVjaW9uZXNcUmVnaXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Ventas/Contribuyentes/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFzXENvbnRyaWJ1eWVudGVzXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Ventas/Contribuyentes/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFzXENvbnRyaWJ1eWVudGVzXExpc3Rhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Ventas/Contribuyentes/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFzXENvbnRyaWJ1eWVudGVzXFJlZ2lzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Ventas/Final/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFzXEZpbmFsXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Ventas/Final/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFzXEZpbmFsXExpc3Rhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Ventas/Final/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFzXEZpbmFsXFJlZ2lzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/_ViewStart.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/programador04/Documents/GitHub/Contabsv_core/Pages/Shared/_Layout.cshtml]
+[C:/Users/programador04/Documents/GitHub/Contabsv/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rneulyhwxf

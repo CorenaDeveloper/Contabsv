@@ -9,6 +9,7 @@
         public int idTipoDocumento { get; set; }
         public string numeroResolucion { get; set; }
         public string serieDocumento { get; set; }
+        public string numeroDocumento { get; set; }
         public string? numeroControlInterno { get; set; }
         public string? numeroMaquinaRegistradora { get; set; } = "";
         public decimal? ventasExentas { get; set; } = 0;
@@ -41,6 +42,7 @@
         public string codigoTipoDocumento { get; set; }
         public string detalleTipoDocumento { get; set; }
         public string numeroResolucion { get; set; }
+        public string numeroDocumento { get; set; }
         public string serieDocumento { get; set; }
         public string? numeroControlInterno { get; set; }
         public string? numeroMaquinaRegistradora { get; set; }

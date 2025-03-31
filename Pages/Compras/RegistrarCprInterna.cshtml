@@ -4,71 +4,33 @@
 @using System.Security.Claims
 @{
 }
-<div class="card">
-    <div class="card-header" style="padding: 6px 10px;">
-        <h6>REGISTRAR COMPRA</h6>
+<!-- [ Row 1 ] start -->
+<div class="col-md-12 ">
+    <div class="card statistics-card-1">
+        <div class="card-body">
+            <img src="~/images/widget/img-status-1.svg" alt="img" class="img-fluid img-bg" />
+            <div class="d-flex align-items-center">
+                <div class="avtar bg-brand-color-1 text-white me-3">
+                    <i class="fas fa-dice-d6 f-26"></i>
+                </div>
+                <div>
+                    <p class="text-muted mb-0">Datos</p>
+                    <div class="d-flex align-items-end">
+                        <h2 class="mb-0 f-w-500">Registrar Compra</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="card-body">
-        <form id="documentoForm" method="post">
+</div>
+<form id="documentoForm" method="post">
+    <div class="card">
+        <div class="card-body">
             <input type="hidden" asp-for="NuevaCompra.idDocCompra" value="0" />
             <div class="row g-3">
-                <div class="col-lg-3">
-                    <label class="form-label">Fecha Emisión:</label>
-                    <input type="date" class="form-control form-control-sm" id="fechaEmision" asp-for="NuevaCompra.fechaEmision">
-                    <span asp-validation-for="NuevaCompra.fechaEmision" class="text-danger"></span>
-                </div>
-
-                <div class="col-lg-3">
-                    <label class="form-label">Fecha Presentación:</label>
-                    <input type="date" class="form-control form-control-sm" id="fechaPresentacion" asp-for="NuevaCompra.fechaPresentacion">
-                    <span asp-validation-for="NuevaCompra.fechaPresentacion" class="text-danger"></span>
-                </div>
-
-
-                <div class="col-lg-3">
-                    <label class="form-label">Clase Documento:</label>
-                    <select id="idclaseDocumento" class="form-control form-select-sm" asp-for="NuevaCompra.idclaseDocumento">
-                        @foreach (var item in ViewData["ClaseDocumentos"] as List<ClaseDocumentoModel>)
-                        {
-                            <option value="@item.id">@item.nombre</option>
-                        }
-                    </select>
-                    <span asp-validation-for="NuevaCompra.idclaseDocumento" class="text-danger"></span>
-                </div>
-
-                <div class="col-lg-3">
-                    <label class="form-label">Tipo Documento:</label>
-                    <select class="form-select form-select-sm" id="idtipoDocumento" asp-for="NuevaCompra.idtipoDocumento">
-                        @foreach (var item in ViewData["TipoDocumentos"] as List<TipoDocumentoModel>)
-                        {
-                            <option value="@item.id">@item.nombre</option>
-                        }
-                    </select>
-                    <span asp-validation-for="NuevaCompra.idtipoDocumento" class="text-danger"></span>
-                </div>
-
-                <div class="col-lg-3">
-                    <label class="form-label">Número Serie:</label>
-                    <input type="text" class="form-control form-control-sm" id="numSerie" asp-for="NuevaCompra.numSerie">
-                    <span asp-validation-for="NuevaCompra.numSerie" class="text-danger"></span>
-                </div>
-
-                <div class="col-lg-6">
-                    <label class="form-label">Número Documento:</label>
-                    <input type="text" class="form-control form-control-sm" id="numeroDocumento" asp-for="NuevaCompra.numeroDocumento">
-                    <span asp-validation-for="NuevaCompra.numeroDocumento" class="text-danger"></span>
-                </div>
-
-                <div class="col-lg-3">
-                    <label class="form-label">Combustible:</label>
-                    <br />
-                    <input type="checkbox" class="form-check-input" id="combustible" asp-for="NuevaCompra.combustible">
-                    <span asp-validation-for="NuevaCompra.combustible" class="text-danger"></span>
-                </div>
-
                 <div class="col-lg-6">
                     <label class="form-label">Proveedor:</label>
-                    <select id="idProveedor" class="form-control form-select-sm">
+                    <select id="idProveedor" class="form-control form-select-sm input-border-bottom">
                         <option value="">Seleccione un proveedor</option>
                         @foreach (var item in ViewData["Proveedores"] as List<ProveedoresModel>)
                         {
@@ -86,143 +48,222 @@
                     <input type="hidden" id="idProveedorVal" asp-for="NuevaCompra.idProveedor">
                     <span asp-validation-for="NuevaCompra.idProveedor" class="text-danger"></span>
                 </div>
+                <div class="col-lg-3">
+                    <label class="form-label">Fecha Emisión:</label>
+                    <input type="date" class="form-control form-control-sm input-border-bottom" id="fechaEmision" asp-for="NuevaCompra.fechaEmision">
+                    <span asp-validation-for="NuevaCompra.fechaEmision" class="text-danger"></span>
+                </div>
+
+                <div class="col-lg-3">
+                    <label class="form-label">Fecha Presentación:</label>
+                    <input type="date" class="form-control form-control-sm input-border-bottom" id="fechaPresentacion" asp-for="NuevaCompra.fechaPresentacion">
+                    <span asp-validation-for="NuevaCompra.fechaPresentacion" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3">
+                    <label class="form-label">Clase Documento:</label>
+                    <select id="idclaseDocumento" class="form-control form-select-sm input-border-bottom" asp-for="NuevaCompra.idclaseDocumento">
+                        @foreach (var item in ViewData["ClaseDocumentos"] as List<ClaseDocumentoModel>)
+                        {
+                            <option value="@item.id">@item.nombre</option>
+                        }
+                    </select>
+                    <span asp-validation-for="NuevaCompra.idclaseDocumento" class="text-danger"></span>
+                </div>
+                <div class="col-lg-3">
+                    <label class="form-label">Tipo Documento:</label>
+                    <select class="form-select form-select-sm input-border-bottom" id="idtipoDocumento" asp-for="NuevaCompra.idtipoDocumento">
+                        @foreach (var item in ViewData["TipoDocumentos"] as List<TipoDocumentoModel>)
+                        {
+                            <option value="@item.id">@item.nombre</option>
+                        }
+                    </select>
+                    <span asp-validation-for="NuevaCompra.idtipoDocumento" class="text-danger"></span>
+                </div>
 
                 <div class="col-lg-6">
-                    <input type="checkbox" id="mostrarCampos" class="form-check-input">
-                    <label for="mostrarCampos" class="form-label    ">Mostrar datos para Internacionesles e Importaciones</label>
+                    <label class="form-label">Número Serie:</label>
+                    <input type="text" class="form-control form-control-sm input-border-bottom" id="numSerie" asp-for="NuevaCompra.numSerie">
+                    <span asp-validation-for="NuevaCompra.numSerie" class="text-danger"></span>
                 </div>
 
-                <hr class="my-3">
-            </div>
+                <div class="col-lg-6">
+                    <label class="form-label">Número Documento:</label>
+                    <input type="text" class="form-control form-control-sm input-border-bottom" id="numeroDocumento" asp-for="NuevaCompra.numeroDocumento">
+                    <span asp-validation-for="NuevaCompra.numeroDocumento" class="text-danger"></span>
+                </div>
 
-
-
-            <div class="row">
                 <div class="col-lg-3">
-                    <label class="form-label">Internas Exentas:</label>
-                    <input type="text" class="form-control form-control-sm" id="internasExentas" asp-for="NuevaCompra.internasExentas">
-                    <span asp-validation-for="NuevaCompra.internasExentas" class="text-danger"></span>
-                </div>
-                <div class="col-lg-3">
-                    <label class="form-label">Internas Gravadas:</label>
-                    <input type="text" class="form-control form-control-sm" id="internasGravadas" asp-for="NuevaCompra.internasGravadas">
-                    <span asp-validation-for="NuevaCompra.internasGravadas" class="text-danger"></span>
-                </div>
-                <div class="col-lg-3"></div>
-                <div class="col-lg-3"></div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-lg-3 campos-ocultos">
-                    <label class="form-label">Internaciones Gravadas Bienes:</label>
-                    <input type="text" class="form-control form-control-sm" id="internacionesGravadasBienes" asp-for="NuevaCompra.internacionesGravadasBienes">
-                    <span asp-validation-for="NuevaCompra.internacionesGravadasBienes" class="text-danger"></span>
-                </div>
-                <div class="col-lg-3 campos-ocultos">
-                    <label class="form-label">Import. Y/NoSujetas:</label>
-                    <input type="text" class="form-control form-control-sm" id="importacionesYONsujetas" asp-for="NuevaCompra.importacionesYONsujetas">
-                    <span asp-validation-for="NuevaCompra.importacionesYONsujetas" class="text-danger"></span>
-                </div>
-                <div class="col-lg-3 campos-ocultos">
-                    <label class="form-label">Import. Gravadas Bienes:</label>
-                    <input type="text" class="form-control form-control-sm" id="importacionesGravadasBienes" asp-for="NuevaCompra.importacionesGravadasBienes">
-                    <span asp-validation-for="NuevaCompra.importacionesGravadasBienes" class="text-danger"></span>
-                </div>
-                <div class="col-lg-3 campos-ocultos">
-                    <label class="form-label">Import. Gravadas Servicios:</label>
-                    <input type="text" class="form-control form-control-sm" id="importacionesGravadasServicios" asp-for="NuevaCompra.importacionesGravadasServicios">
-                    <span asp-validation-for="NuevaCompra.importacionesGravadasServicios" class="text-danger"></span>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input input-primary" type="checkbox" id="customCheckc1" id="combustible" asp-for="NuevaCompra.combustible">
+                        <label class="form-check-label" for="customCheckc1">Combustible</label>
+                    </div>
+                    <span asp-validation-for="NuevaCompra.combustible" class="text-danger"></span>
                 </div>
 
             </div>
 
-            <div class="row">
-                <div class="col-lg-3 campos-ocultos">
-                    <label class="form-label">Internac. Exentas/No Sujetas:</label>
-                    <input type="text" class="form-control form-control-sm" id="internacionalesExentasYONsujetas" asp-for="NuevaCompra.internacionalesExentasYONsujetas">
-                    <span asp-validation-for="NuevaCompra.internacionalesExentasYONsujetas" class="text-danger"></span>
-                </div>
-                <div class="col-lg-3">
-                    <label class="form-label">Crédito Fiscal:</label>
-                    <input type="text" class="form-control form-control-sm" id="creditoFiscal" disabled="disabled" asp-for="NuevaCompra.creditoFiscal">
-                    <span asp-validation-for="NuevaCompra.creditoFiscal" class="text-danger"></span>
-                </div>
-                <div class="col-lg-3">
-                    <label class="form-label">IVA Retenido:</label>
-                    <input type="text" class="form-control form-control-sm" id="ivaRetenido" disabled="disabled" asp-for="NuevaCompra.ivaRetenido">
-                    <span asp-validation-for="NuevaCompra.ivaRetenido" class="text-danger"></span>
-                </div>
-                <div class="col-lg-3">
-                    <label class="form-label">Total Compras:</label>
-                    <input type="text" class="form-control form-control-sm" id="totalCompras" disabled="disabled" asp-for="NuevaCompra.totalCompras">
-                    <span asp-validation-for="NuevaCompra.totalCompras" class="text-danger"></span>
-                </div>
-            </div>
-
-            <div class="row">
-                <hr class="my-3">
-                <div class="col-lg-3">
-                    <label class="form-label">Tipo Operación:</label>
-                    <select class="form-select form-select-sm" id="idTipoOperacion" asp-for="NuevaCompra.idTipoOperacion">
-                        @foreach (var item in ViewData["Operaciones"] as List<OperacionesModel>)
-                        {
-                            <option value="@item.id">@item.descripcion</option>
-                        }
-                    </select>
-                    <span asp-validation-for="NuevaCompra.idTipoOperacion" class="text-danger"></span>
-                </div>
-
-                <div class="col-lg-3">
-                    <label class="form-label">Clasificación:</label>
-                    <select class="form-select form-select-sm" id="idClasificacion" asp-for="NuevaCompra.idClasificacion">
-                        @foreach (var item in ViewData["Clasificaciones"] as List<ClasificacionesModel>)
-                        {
-                            <option value="@item.id">@item.descripcion</option>
-                        }
-                    </select>
-                    <span asp-validation-for="NuevaCompra.idClasificacion" class="text-danger"></span>
-                </div>
-
-                <div class="col-lg-3">
-                    <label class="form-label">Tipo Costo/Gasto:</label>
-                    <select class="form-select form-select-sm" id="idTipoCostoGasto" asp-for="NuevaCompra.idTipoCostoGasto">
-                        @foreach (var item in ViewData["TipoOperacionIG"] as List<TipoOperacionIGModel>)
-                        {
-                            <option value="@item.id">@item.descripcion</option>
-                        }
-                    </select>
-                    <span asp-validation-for="NuevaCompra.idTipoCostoGasto" class="text-danger"></span>
-                </div>
-                <div class="col-lg-3">
-                    <label class="form-label">Total Doc:</label>
-                    <input type="text" class="form-control form-control-sm" id="totalDocumento" disabled="disabled">
-                </div>
-            </div>
-
-            <div class="mt-3 text-end">
-                <button type="submit" class="btn btn-primary">Guardar</button>
-            </div>
-        </form>
+        </div>
     </div>
-</div>
+    <div class="row">
+        <div class="col-xl-8 col-md-12">
+            <div class="row">
+                <div class="col-xl-12 col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row g-4">
+                                <div class="col-md-3 col-sm-12">
+                                    <ul class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                        <li><a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">General</a></li>
+                                        <li><a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Internacionales</a></li>
+                                        <li><a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Importaciones</a></li>
+                                        <li hidden="hidden"><a class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-9 col-sm-12">
+                                    <div class="tab-content" id="v-pills-tabContent">
+                                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label class="form-label">Internas Exentas:</label>
+                                                    <input type="text" class="form-control form-control-sm" id="internasExentas" asp-for="NuevaCompra.internasExentas">
+                                                    <span asp-validation-for="NuevaCompra.internasExentas" class="text-danger"></span>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <label class="form-label">Internas Gravadas:</label>
+                                                    <input type="text" class="form-control form-control-sm" id="internasGravadas" asp-for="NuevaCompra.internasGravadas">
+                                                    <span asp-validation-for="NuevaCompra.internasGravadas" class="text-danger"></span>
+                                                </div>
+                                                <div class="col-lg-3"></div>
+                                                <div class="col-lg-3"></div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label class="form-label">Internaciones Gravadas Bienes:</label>
+                                                    <input type="text" class="form-control form-control-sm" id="internacionesGravadasBienes" asp-for="NuevaCompra.internacionesGravadasBienes">
+                                                    <span asp-validation-for="NuevaCompra.internacionesGravadasBienes" class="text-danger"></span>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <label class="form-label">Internac. Exentas/No Sujetas:</label>
+                                                    <input type="text" class="form-control form-control-sm" id="internacionalesExentasYONsujetas" asp-for="NuevaCompra.internacionalesExentasYONsujetas">
+                                                    <span asp-validation-for="NuevaCompra.internacionalesExentasYONsujetas" class="text-danger"></span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label class="form-label">Import. Y/NoSujetas:</label>
+                                                    <input type="text" class="form-control form-control-sm " id="importacionesYONsujetas" asp-for="NuevaCompra.importacionesYONsujetas">
+                                                    <span asp-validation-for="NuevaCompra.importacionesYONsujetas" class="text-danger"></span>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <label class="form-label">Import. Gravadas Bienes:</label>
+                                                    <input type="text" class="form-control form-control-sm" id="importacionesGravadasBienes" asp-for="NuevaCompra.importacionesGravadasBienes">
+                                                    <span asp-validation-for="NuevaCompra.importacionesGravadasBienes" class="text-danger"></span>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <label class="form-label">Import. Gravadas Servicios:</label>
+                                                    <input type="text" class="form-control form-control-sm" id="importacionesGravadasServicios" asp-for="NuevaCompra.importacionesGravadasServicios">
+                                                    <span asp-validation-for="NuevaCompra.importacionesGravadasServicios" class="text-danger"></span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <label class="form-label">Tipo Operación:</label>                                   
+                                </div> 
+                                <div class="col-lg-8">
+                                    <select class="form-select form-select-sm input-border-bottom" id="idTipoOperacion" asp-for="NuevaCompra.idTipoOperacion">
+                                        @foreach (var item in ViewData["Operaciones"] as List<OperacionesModel>)
+                                        {
+                                            <option value="@item.id">@item.descripcion</option>
+                                        }
+                                    </select>
+                                    <span asp-validation-for="NuevaCompra.idTipoOperacion" class="text-danger"></span>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <label class="form-label">Clasificación:</label>                                
+                                </div>
+                                <div class="col-lg-8">
+                                    <select class="form-select form-select-sm input-border-bottom" id="idClasificacion" asp-for="NuevaCompra.idClasificacion">
+                                        @foreach (var item in ViewData["Clasificaciones"] as List<ClasificacionesModel>)
+                                        {
+                                            <option value="@item.id" selected="@(item.id == 3 ? "selected" : null)">@item.descripcion</option>
+                                        }
+                                    </select>
+                                    <span asp-validation-for="NuevaCompra.idClasificacion" class="text-danger"></span>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <label class="form-label">Tipo Costo/Gasto:</label>                                 
+                                </div>
+                                <div class="col-lg-8">
+                                    <select class="form-select form-select-sm input-border-bottom" id="idTipoCostoGasto" asp-for="NuevaCompra.idTipoCostoGasto">
+                                        @foreach (var item in ViewData["TipoOperacionIG"] as List<TipoOperacionIGModel>)
+                                        {
+                                            <option value="@item.id" selected="@(item.id == 2 ? "selected" : null)">@item.descripcion</option>
+                                        }
+                                    </select>
+                                    <span asp-validation-for="NuevaCompra.idTipoCostoGasto" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+        <div class="col-xl-4 col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <label class="form-label">Crédito Fiscal:</label>
+                            <input type="text" class="form-control form-control-sm input-border-bottom" id="creditoFiscal" readonly="readonly" asp-for="NuevaCompra.creditoFiscal">
+                            <span asp-validation-for="NuevaCompra.creditoFiscal" class="text-danger"></span>
+                        </div>
+                        <div class="col-lg-12">
+                            <label class="form-label">IVA Retenido:</label>
+                            <input type="text" class="form-control form-control-sm input-border-bottom" id="ivaRetenido" readonly="readonly" asp-for="NuevaCompra.ivaRetenido">
+                            <span asp-validation-for="NuevaCompra.ivaRetenido" class="text-danger"></span>
+                        </div>
+                        <div class="col-lg-12">
+                            <label class="form-label">Total Compras:</label>
+                            <input type="text" class="form-control form-control-sm input-border-bottom" id="totalCompras" readonly="readonly" asp-for="NuevaCompra.totalCompras">
+                            <span asp-validation-for="NuevaCompra.totalCompras" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <label class="form-label">Total Doc:</label>
+                        <input type="text" class="form-control form-control-sm input-border-bottom" id="totalDocumento" disabled="disabled">
+                    </div>
+                    <div class="mt-3 text-end">
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
 <script>
-
-
-    document.addEventListener("DOMContentLoaded", function () {
-        let checkBox = document.getElementById("mostrarCampos");
-        let campos = document.querySelectorAll(".campos-ocultos");
-
-        checkBox.checked = false;
-        campos.forEach(campo => campo.style.display = "none"); // Oculta completamente
-
-        checkBox.addEventListener("change", function () {
-            campos.forEach(campo => {
-                campo.style.display = this.checked ? "block" : "none"; // Muestra u oculta
-            });
-        });
-    });
-
 
     $(document).ready(function () {
 

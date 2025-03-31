@@ -9,10 +9,43 @@
     var tokens = Antiforgery.GetAndStoreTokens(HttpContextAccessor.HttpContext);
 }
   
-<div class="card">
-    <div class="card-header">
-        <h5>Clientes</h5>
+<div class="row">
+    <!-- [ Row 1 ] start -->
+    <div class="col-md-12 ">
+        <div class="card statistics-card-1">
+            <div class="card-body">
+                <img src="~/images/widget/img-status-2.svg" alt="img" class="img-fluid img-bg" />
+                <div class="d-flex align-items-center">
+                    <div class="avtar bg-brand-color-1 text-white me-3">
+                        <i class="fas fa-dice-d6 f-26"></i>
+                    </div>
+                    <div>
+                        <p class="text-muted mb-0">Datos</p>
+                        <div class="d-flex align-items-end">
+                            <h2 class="mb-0 f-w-500">Clientes</h2>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-end">
+                        <div class="button-container">
+                            <button class="animated-button save-btn" type="button" onclick="window.location.href='@Url.Page("/Clientes/Registrar")'">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                                    <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                                </svg>
+                                <span class="text">N U E V O</span>
+                                <span class="circle"></span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                                    <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+
+<div class="card">
     <div class="card-body">
         <div id="spinner" class="text-center">
             <div class="spinner-grow" style="width: 3rem; height: 3rem" role="status">
@@ -38,17 +71,98 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                 </div>
                 <div class="modal-body">
-                    <p>¿Estás seguro de que deseas eliminar este ClienteClt?</p>
+                    <p>¿Estás seguro de que deseas eliminar este Cliente?</p>
                     <input type="hidden" name="idClienteClt" id="idClienteCltInput" />
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                <div class="mt-3 text-end">
+                    <div class="button-container">
+                        <button class="animated-button cancel-btn" type="button" data-bs-dismiss="modal">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                                <path d="M7.8284 13H20V11H7.8284L13.1924 5.63589L11.7782 4.22168L4 12L11.7782 19.778L13.1924 18.3638L7.8284 13Z"></path>
+                            </svg>
+                            <span class="text">C A N C E L A R</span>
+                            <span class="circle"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                                <path d="M7.8284 13H20V11H7.8284L13.1924 5.63589L11.7782 4.22168L4 12L11.7782 19.778L13.1924 18.3638L7.8284 13Z"></path>
+                            </svg>
+                        </button>
+
+                        <button class="animated-button save-btn" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                                <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                            </svg>
+                            <span class="text">E L I M I N A R</span>
+                            <span class="circle"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                                <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </form>
         </div>
     </div>
 </div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="productOffcanvas" aria-labelledby="productOffcanvasLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="productOffcanvasLabel">DETALLE DE CLIENTE</h5>
+        <a href="#" class="avtar avtar-s btn-link-danger btn-pc-default" data-bs-dismiss="offcanvas">
+            <i class="ti ti-x f-20"></i>
+        </a>
+    </div>
+    <div class="offcanvas-body">
+        <div class="card product-card shadow-none border-0">
+            <!-- Imagen del proveedor o marca -->
+            <div class="card-img-top p-0 text-center">
+                <img id="client-img" src="~/images/perfil.png" alt="image" class="img-prod img-fluid" style="max-width: 150px;">
+            </div>
+        </div>
+
+        <h5 id="client-nombre">Nombre del Cliente</h5>
+        <p class="text-muted" id="client-descripcion">Descripción o detalles del cliente.</p>
+
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item px-0">
+                <div class="d-inline-flex align-items-center justify-content-between w-100">
+                    <p class="mb-0 text-muted me-1">NRC</p>
+                    <h6 class="mb-0" id="client-nrc"></h6>
+                </div>
+            </li>
+            <li class="list-group-item px-0">
+                <div class="d-inline-flex align-items-center justify-content-between w-100">
+                    <p class="mb-0 text-muted me-1">NIT</p>
+                    <h6 class="mb-0" id="client-nit"></h6>
+                </div>
+            </li>
+            <li class="list-group-item px-0">
+                <div class="d-inline-flex align-items-center justify-content-between w-100">
+                    <p class="mb-0 text-muted me-1">Celular</p>
+                    <h6 class="mb-0" id="client-celular"></h6>
+                </div>
+            </li>
+            <li class="list-group-item px-0">
+                <div class="d-inline-flex align-items-center justify-content-between w-100">
+                    <p class="mb-0 text-muted me-1">Sector</p>
+                    <h6 class="mb-0" id="client-sector"></h6>
+                </div>
+            </li>
+            <li class="list-group-item px-0">
+                <div class="d-inline-flex align-items-center justify-content-between w-100">
+                    <p class="mb-0 text-muted me-1">Juridica</p>
+                    <h6 class="mb-0"><span id="client-juridica" class="badge bg-warning rounded-pill">No</span></h6>
+                </div>
+            </li>
+            <li class="list-group-item px-0">
+                <div class="d-inline-flex align-items-center justify-content-between w-100">
+                    <p class="mb-0 text-muted me-1">Contribuyente</p>
+                    <h6 class="mb-0" id="client-contribuyente"></h6>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
 
 <script>
     let table;
@@ -94,51 +208,21 @@
                         return (data = null ? '' : `<input type="checkbox" ${data ? "checked" : ""} disabled>`);
                     },
                     className: 'text-center'
-                },
-                { 
-                    data: "nombreComercial", 
-                    title: "NOMBRE COMERCIAL", 
-                    render: (data) => data || '' 
-                },
-                { 
-                    data: "duiCliente", 
-                    title: "DUI CLIENTE", 
-                    render: (data) => data || '' 
-                },
-                { 
-                    data: "representanteLegal", 
-                    title: "REPRESENTANTE LEGAL", 
-                    render: (data) => data || '' 
-                },
-                { 
-                    data: "duiRepresentanteLegal", 
-                    title: "DUI REPRESENTANTE", 
-                    render: (data) => data || '' 
-                },
-                { 
-                    data: "celular", 
-                    title: "CELULAR", 
-                    render: (data) => data || '' 
-                },
-                { 
-                    data: "telefonoCliente",
-                    title: "TELÉFONO", 
-                    render: (data) => data || ''
-                },
+                },                      
                 { 
                     data: "nrc", 
                     title: "NRC", 
                     render: (data) => data || ''
-                },
-                { 
-                    data: "tipoContribuyente",
-                    title: "TIPO CONTRIBUYENTE",
-                    render: (data) => data || '' 
-                },
+                },              
                 {
                     data: "nitCliente", 
                     title: "NIT", 
                     render: (data) => data || '' 
+                },
+                {
+                    data: "celular",
+                    title: "CELULAR",
+                    render: (data) => data || ''
                 },
                 {
                     data: null,
@@ -146,14 +230,37 @@
                     orderable: false,
                     searchable: false,
                     render: function (data, type, row) {
-                        return `
-                                <button class="btn btn-sm btn-primary edit-btn" data-id="${row.idClienteClt}">
-                                    <i class="fas fa-edit"></i> 
+                        let menuId = `menu-${row.idClienteClt}`;
+
+                        let btn = `
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle btn-sm" type="button"
+                            id="${menuId}"
+                            data-bs-toggle="dropdown"
+                            data-menu-id="${menuId}"
+                            aria-expanded="false">
+                            <i class="fas fa-sliders-h"></i>
+                        </button>
+                        <ul class="dropdown-menu shadow p-2 rounded-3" aria-labelledby="${menuId}">
+                            <li>
+                                 <button class="dropdown-item" type="button" onclick="Editar(${row.idClienteClt});">
+                                    <i class="fas fa-pencil-alt me-2 text-primary"></i> Editar
                                 </button>
-                                    <button class="btn btn-sm btn-danger delete-btn" data-id="${row.idClienteClt}">
-                                    <i class="fas fa-trash"></i> 
+                            </li>
+                            <li>
+                                 <button class="dropdown-item" type="button" onclick="Eliminar(${row.idClienteClt});">
+                                    <i class="fas fa-trash-alt me-2 text-danger"></i> Eliminar
                                 </button>
-                            `;
+                            </li>
+                             <li>
+                                 <button class="dropdown-item" type="button" onclick="Ver(${row.idClienteClt});">
+                                    <i class="fas fa-search me-2 text-success"></i> Ver Datos
+                                 </button>
+                             </li>
+                        </ul>
+                    </div>
+                `;
+                        return btn;
                     }
                 }
             ],
@@ -180,16 +287,57 @@
             }
         });
 
-        $('#tblClientes tbody').on('click', '.edit-btn', function () {
-            let id = $(this).data('id');
-            window.location.href = `Editar?id=${id}`;
-        });
-
-
-        $('#tblClientes tbody').on('click', '.delete-btn', function () {
-            var id = $(this).data('id');
-            $('#idClienteCltInput').val(id);
-            $('#eliminarClienteCltModal').modal('show');
-        });
     });
+
+
+    function Editar(idClienteClt) {
+        window.location.href = `Editar?id=${idClienteClt}`;
+    }
+
+    function Eliminar(idClienteClt) {
+        $('#idClienteCltInput').val(idClienteClt);
+        $('#eliminarClienteCltModal').modal('show');
+    }
+
+    function Ver(idClienteClt) {
+        const data = table.rows().data().toArray();
+        const cliente = data.find(p => p.idClienteClt === idClienteClt);
+
+        if (!cliente) {
+            console.warn('Cliente no encontrado');
+            return;
+        }
+        console.log(cliente);
+        // Llenar datos del proveedor en el offcanvas
+        const nombre = cliente.personaJuridica ? cliente.nombreRazonSocial : `${cliente.nombres ?? ''} ${cliente.apellidos ?? ''}`.trim();
+
+        $("#client-nombre").html(nombre || 'Sin Nombre');
+        $("#client-email").html(cliente.email || 'Sin Correo');
+        $("#client-nrc").html(cliente.nrc || '-');
+        $("#client-nit").html(cliente.nitCliente || '-');
+        $("#client-celular").html(cliente.celular || '-');
+        $("#client-sector").html(cliente.descripcionSector); //PENDIENTE DE AGREGAR A LA API
+        $("#client-contribuyente").html(cliente.tipoContribuyente);
+        $("#client-descripcion").html(cliente.nombreComercial);
+
+
+        // Checkbox jurídica, mostramos "Sí" o "No"
+        const juridicaBadge = document.getElementById('client-juridica');
+        if (cliente.personaJuridica) {
+            juridicaBadge.textContent = 'Sí';
+            juridicaBadge.classList.remove('bg-warning');
+            juridicaBadge.classList.add('bg-success');
+        } else {
+            juridicaBadge.textContent = 'No';
+            juridicaBadge.classList.remove('bg-success');
+            juridicaBadge.classList.add('bg-warning');
+        }
+
+        // Abres el offcanvas con Bootstrap 5
+        const offcanvas = new bootstrap.Offcanvas(document.getElementById('productOffcanvas'));
+        offcanvas.show();
+    }
+
+    // Llamas a la función solo para #Apps
+    floatingDropdownForTable('#tblClientes');
 </script>

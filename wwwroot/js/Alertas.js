@@ -11,10 +11,7 @@ function showAlert(type, message) {
 
     $("#alertContainer").html(alertHtml);
 
-    // Si es éxito, ocultar después de 2 segundos
-    if (type === "success") {
-        setTimeout(function () {
-            $("#alertContainer").html(""); // Limpia la alerta
-        }, 2000);
-    }
+    setTimeout(function () {
+        $("#alertContainer").html(""); // Limpia la alerta
+    }, 3000);
 }

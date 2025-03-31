@@ -2,6 +2,7 @@
 
 using Contabsv_core.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 using System.Text;
 using System.Text.Json;
 
@@ -151,27 +152,43 @@ namespace Contabsv_core.Services
         /// <param name="add"></param>
         /// <returns></returns>
         [HttpPost]
-        public async Task<bool> RegistrarProveedor(ProveedoresModel add)
+        public async Task<ApiResponse> RegistrarProveedor(ProveedoresModel add)
         {
+            var apiResponse = new ApiResponse();
+
             try
             {
                 var json = JsonSerializer.Serialize(add, new JsonSerializerOptions { WriteIndented = true });
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
-                var response = await _httpClient.PostAsync("DBContabilidad_Proveedores/Proveedores", content);
-                response.EnsureSuccessStatusCode();
 
-                return true;
+                Console.WriteLine(json);
+
+                var response = await _httpClient.PostAsync("DBContabilidad_Proveedores/Proveedores", content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    apiResponse.Success = true;
+                    apiResponse.Message = "Proveedor registrado con éxito.";
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    apiResponse.Success = false;
+                    apiResponse.Message = $"Error al registrar: {response.StatusCode} - {errorContent}";
+                }
             }
             catch (HttpRequestException ex)
             {
-                Console.WriteLine($"Error en la solicitud HTTPS: {ex.Message}");
-                return false;
+                apiResponse.Success = false;
+                apiResponse.Message = $"Error en la solicitud HTTP: {ex.Message}";
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Ocurrió un error inesperado: {ex.Message}");
-                return false;
+                apiResponse.Success = false;
+                apiResponse.Message = $"Ocurrió un error inesperado: {ex.Message}";
             }
+
+            return apiResponse;
         }
 
         /// <summary>
@@ -180,47 +197,63 @@ namespace Contabsv_core.Services
         /// <param name="pro"></param>
         /// <returns></returns>
         [HttpPut]
-        public async Task<bool> ActualizarProveedor(ProveedoresModel pro)
+        public async Task<ApiResponse> ActualizarProveedor(ProveedoresModel pro)
         {
+            var apiResponse = new ApiResponse();
             try
             {
                 var json = JsonSerializer.Serialize(pro, new JsonSerializerOptions { WriteIndented = true });
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
                 var response = await _httpClient.PutAsync("DBContabilidad_Proveedores/Proveedores", content);
+
                 if (response.IsSuccessStatusCode)
                 {
-                    Console.WriteLine("Proveedor actualizado con éxito.");
-                    return true;
+                    apiResponse.Success = true;
+                    apiResponse.Message = "Proveedor actualizado con éxito.";
                 }
                 else
                 {
-                    Console.WriteLine($"Error al actualizar el proveedor. Código de estado: {response.StatusCode}");
-                    return false;
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    apiResponse.Success = false;
+                    apiResponse.Message = $"Error al actualizar: {response.StatusCode} - {errorContent}";
                 }
             }
             catch (HttpRequestException ex)
             {
-                Console.WriteLine($"Error en la solicitud HTTP: {ex.Message}");
-                return false;
+                apiResponse.Success = false;
+                apiResponse.Message = $"Error en la solicitud HTTP: {ex.Message}";
             }
             catch (Exception ex)
             {
-                // Manejar cualquier otra excepción no prevista
-                Console.WriteLine($"Ocurrió un error inesperado: {ex.Message}");
-                return false;
+                apiResponse.Success = false;
+                apiResponse.Message = $"Ocurrió un error inesperado: {ex.Message}";
             }
+
+            return apiResponse;
         }
 
         /// <summary>
-        /// ELIMINA EL REGISTRO DE ALGUN PROVEEDOR
+        /// ELIMINA UN PROVEEDOR
         /// </summary>
         /// <param name="idProveedor"></param>
         /// <returns></returns>
         [HttpDelete]
-        public async Task<bool> DeleteProveedor(int idProveedor)
+        public async Task<ApiResponse> DeleteProveedor(int idProveedor)
         {
             var response = await _httpClient.DeleteAsync($"DBContabilidad_Proveedores/Proveedores/{idProveedor}");
-            return response.IsSuccessStatusCode;
+
+            var apiResponse = new ApiResponse
+            {
+                Success = response.IsSuccessStatusCode
+            };
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var errorContent = await response.Content.ReadAsStringAsync();
+                apiResponse.Message = $"Error al eliminar: {response.StatusCode} - {errorContent}";
+            }
+
+            return apiResponse;
         }
 
         //====================  FIN PROVEEDORES ===========================
@@ -351,6 +384,191 @@ namespace Contabsv_core.Services
             return response.IsSuccessStatusCode;
         }
         //=================================================================
+        //====================  RESOLUCIONES  =============================
+        //=================================================================       
+
+        public async Task<List<ResolucionesModel>> GetResolciones(string idCliente)
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync($"DBContabilidad_Resolucion/Resolucion?idCliente={idCliente}");
+                response.EnsureSuccessStatusCode();
+                var json = await response.Content.ReadAsStringAsync();
+                return JsonSerializer.Deserialize<List<ResolucionesModel>>(json);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ocurrió un error inesperado: {ex.Message}");
+                throw;
+            }
+
+        }
+
+        [HttpGet]
+        public async Task<ResolucionesModel> GetResolucion(int idResolucion)
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync($"DBContabilidad_Resolucion/Resolucion/{idResolucion}");
+                response.EnsureSuccessStatusCode();
+                var json = await response.Content.ReadAsStringAsync();
+                return JsonSerializer.Deserialize<ResolucionesModel>(json);
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"Ocurrió un error inesperado: {ex.Message}");
+                throw;
+            }
+
+        }
+
+        [HttpPost]
+        public async Task<ApiResModel> RegistrarResolucion(CrudResolucionesModel a)
+        {
+            try
+            {
+                var json = JsonSerializer.Serialize(a, new JsonSerializerOptions { WriteIndented = true });
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+                var response = await _httpClient.PostAsync("DBContabilidad_Resolucion/Resolucion", content);
+                response.EnsureSuccessStatusCode();
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return new ApiResModel
+                    {
+                        Success = true,
+                        Message = $"Registro con éxito.",
+                        StatusCode = response.StatusCode
+                    };
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    return new ApiResModel
+                    {
+                        Success = false,
+                        Message = $"Error: {errorContent}",
+                        StatusCode = response.StatusCode
+                    };
+                }
+            }
+            catch (HttpRequestException httpEx)
+            {
+                return new ApiResModel
+                {
+                    Success = false,
+                    Message = $"Error de solicitud HTTP: {httpEx.Message}",
+                    StatusCode = HttpStatusCode.ServiceUnavailable
+                };
+            }
+            catch (Exception ex)
+            {
+                return new ApiResModel
+                {
+                    Success = false,
+                    Message = $"Error inesperado: {ex.Message}",
+                    StatusCode = HttpStatusCode.InternalServerError
+                };
+            }
+        }
+
+        [HttpPut]
+        public async Task<ApiResModel> ActualizarResolucion(CrudResolucionesModel a)
+        {
+            try
+            {
+                var json = JsonSerializer.Serialize(a, new JsonSerializerOptions { WriteIndented = true });
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+                var response = await _httpClient.PutAsync("DBContabilidad_Resolucion/Resolucion/", content);
+                if (response.IsSuccessStatusCode)
+                {
+                    return new ApiResModel
+                    {
+                        Success = true,
+                        Message = $"Actualizacion con éxito.",
+                        StatusCode = response.StatusCode
+                    };
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    return new ApiResModel
+                    {
+                        Success = false,
+                        Message = $"Error: {errorContent}",
+                        StatusCode = response.StatusCode
+                    };
+                }
+            }
+            catch (HttpRequestException httpEx)
+            {
+                return new ApiResModel
+                {
+                    Success = false,
+                    Message = $"Error de solicitud HTTP: {httpEx.Message}",
+                    StatusCode = HttpStatusCode.ServiceUnavailable
+                };
+            }
+            catch (Exception ex)
+            {
+                return new ApiResModel
+                {
+                    Success = false,
+                    Message = $"Error inesperado: {ex.Message}",
+                    StatusCode = HttpStatusCode.InternalServerError
+                };
+            }
+        }
+
+        [HttpDelete]
+        public async Task<ApiResModel> DeleteResolucion(int idResolucion)
+        {
+            try
+            {
+                var response = await _httpClient.DeleteAsync($"DBContabilidad_Resolucion/Resolucion?id={idResolucion}");
+                if (response.IsSuccessStatusCode)
+                {
+                    return new ApiResModel
+                    {
+                        Success = true,
+                        Message = $"Resolución Eliminado con exito.",
+                        StatusCode = response.StatusCode
+                    };
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    return new ApiResModel
+                    {
+                        Success = false,
+                        Message = $"Error al eliminar registro: {errorContent}",
+                        StatusCode = response.StatusCode
+                    };
+                }
+            }
+            catch (HttpRequestException httpEx)
+            {
+                return new ApiResModel
+                {
+                    Success = false,
+                    Message = $"Error de solicitud HTTP: {httpEx.Message}",
+                    StatusCode = HttpStatusCode.ServiceUnavailable
+                };
+            }
+            catch (Exception ex)
+            {
+                return new ApiResModel
+                {
+                    Success = false,
+                    Message = $"Error inesperado: {ex.Message}",
+                    StatusCode = HttpStatusCode.InternalServerError
+                };
+            }
+
+        }
+
+        //=================================================================
         //====================  APIS CONSUMIDOR FINAL =====================
         //=================================================================        
 
@@ -416,6 +634,7 @@ namespace Contabsv_core.Services
             }
         }
 
+       
 
         //=================================================================
         //====================  APIS COMPRAS ==============================
@@ -437,11 +656,7 @@ namespace Contabsv_core.Services
             return JsonSerializer.Deserialize<List<ListarCompras>>(json);
         }
 
-        /// <summary>
-        /// CONSULTA UNA COMPRA UNICA
-        /// </summary>
-        /// <param name="compra"></param>
-        /// <returns></returns>
+
         [HttpGet]
         public async Task<CompraModel> GetCompra(int idCompra)
         {
@@ -460,13 +675,9 @@ namespace Contabsv_core.Services
             }
 
         }
-        /// <summary>
-        /// REGISTRA MI COMPRA
-        /// </summary>
-        /// <param name="compra"></param>
-        /// <returns></returns>
+
         [HttpPost]
-        public async Task<bool> RegistrarCompra(CompraModel compra)
+        public async Task<ApiResModel> RegistrarCompra(CompraModel compra)
         {
             try
             {
@@ -475,27 +686,49 @@ namespace Contabsv_core.Services
                 var response = await _httpClient.PostAsync("DBContabilidad_Compras/Compras", content);
                 response.EnsureSuccessStatusCode();
 
-                return true;
+                if (response.IsSuccessStatusCode)
+                {
+                    return new ApiResModel
+                    {
+                        Success = true,
+                        Message = $"Registro con éxito.",
+                        StatusCode = response.StatusCode
+                    };
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    return new ApiResModel
+                    {
+                        Success = false,
+                        Message = $"Error: {errorContent}",
+                        StatusCode = response.StatusCode
+                    };
+                }
             }
-            catch (HttpRequestException ex)
+            catch (HttpRequestException httpEx)
             {
-                Console.WriteLine($"Error en la solicitud HTTP: {ex.Message}");
-                return false;
+                return new ApiResModel
+                {
+                    Success = false,
+                    Message = $"Error de solicitud HTTP: {httpEx.Message}",
+                    StatusCode = HttpStatusCode.ServiceUnavailable
+                };
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Ocurrió un error inesperado: {ex.Message}");
-                return false;
+                return new ApiResModel
+                {
+                    Success = false,
+                    Message = $"Error inesperado: {ex.Message}",
+                    StatusCode = HttpStatusCode.InternalServerError
+                };
             }
         }
 
-        /// <summary>
-        /// ACTUALIZAR COMPRA
-        /// </summary>
-        /// <param name="pro"></param>
-        /// <returns></returns>
+
         [HttpPut]
-        public async Task<bool> ActualizarCompras(CompraModel pro)
+        public async Task<ApiResModel> ActualizarCompras(CompraModel pro)
         {
             try
             {
@@ -504,45 +737,88 @@ namespace Contabsv_core.Services
                 var response = await _httpClient.PutAsync("DBContabilidad_Compras/Compras/", content);
                 if (response.IsSuccessStatusCode)
                 {
-                    Console.WriteLine("Compra actualizado con éxito.");
-                    return true;
+                    return new ApiResModel
+                    {
+                        Success = true,
+                        Message = $"Actualizacion con éxito.",
+                        StatusCode = response.StatusCode
+                    };
                 }
                 else
                 {
-                    Console.WriteLine($"Error al actualizar el Compra. Código de estado: {response.StatusCode}");
-                    return false;
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    return new ApiResModel
+                    {
+                        Success = false,
+                        Message = $"Error: {errorContent}",
+                        StatusCode = response.StatusCode
+                    };
                 }
             }
-            catch (HttpRequestException ex)
+            catch (HttpRequestException httpEx)
             {
-                Console.WriteLine($"Error en la solicitud HTTPS: {ex.Message}");
-                return false;
+                return new ApiResModel
+                {
+                    Success = false,
+                    Message = $"Error de solicitud HTTP: {httpEx.Message}",
+                    StatusCode = HttpStatusCode.ServiceUnavailable
+                };
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Ocurrió un error inesperado: {ex.Message}");
-                return false;
+                return new ApiResModel
+                {
+                    Success = false,
+                    Message = $"Error inesperado: {ex.Message}",
+                    StatusCode = HttpStatusCode.InternalServerError
+                };
             }
         }
 
-        /// <summary>
-        /// ELIMINA COMPRAS
-        /// </summary>
-        /// <param name="idCompras"></param>
-        /// <returns></returns>
+
         [HttpDelete]
-        public async Task<bool> DeleteCompras(int idCompras)
+        public async Task<ApiResModel> DeleteCompras(int idCompras)
         {
             try
             {
                 var response = await _httpClient.DeleteAsync($"DBContabilidad_Compras/Compras/{idCompras}");
-                return response.IsSuccessStatusCode;
+                if (response.IsSuccessStatusCode)
+                {
+                    return new ApiResModel
+                    {
+                        Success = true,
+                        Message = $"Compra Eliminado con exito.",
+                        StatusCode = response.StatusCode
+                    };
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    return new ApiResModel
+                    {
+                        Success = false,
+                        Message = $"Error al eliminar el Compra: {errorContent}",
+                        StatusCode = response.StatusCode
+                    };
+                }
+            }
+            catch (HttpRequestException httpEx)
+            {
+                return new ApiResModel
+                {
+                    Success = false,
+                    Message = $"Error de solicitud HTTP: {httpEx.Message}",
+                    StatusCode = HttpStatusCode.ServiceUnavailable
+                };
             }
             catch (Exception ex)
             {
-
-                Console.WriteLine($"Ocurrió un error inesperado: {ex.Message}");
-                return false;
+                return new ApiResModel
+                {
+                    Success = false,
+                    Message = $"Error inesperado: {ex.Message}",
+                    StatusCode = HttpStatusCode.InternalServerError
+                };
             }
 
         }

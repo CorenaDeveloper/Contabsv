@@ -37,16 +37,20 @@ namespace Contabsv_core.Pages.Compras
             var idCliente = int.Parse(User.FindFirst("IdCliente")?.Value ?? "0");
             NuevaCompra.idCliente = idCliente;
 
-            bool success = await _apiService.RegistrarCompra(NuevaCompra);
-            if (success)
+            var success = await _apiService.RegistrarCompra(NuevaCompra);
+            if (success.Success)
             {
-                TempData["Mensaje"] = "Compra registrada con éxito.";
+                TempData["Mensaje"] = success.Message;
                 TempData["TipoMensaje"] = "success";
                 return RedirectToPage();
             }
-            await CargarViewDataAsync();
-            ModelState.AddModelError("", "Error al registrar la compra.");
-            return Page();
+            else
+            {
+                TempData["Mensaje"] = success.Message;
+                TempData["TipoMensaje"] = "danger";
+                await CargarViewDataAsync();
+                return RedirectToPage();
+            }
         }
 
         private async Task CargarViewDataAsync()

@@ -45,7 +45,8 @@ namespace Contabsv_core.Pages.Proveedores
             try
             {
                 var resultado = await _apiService.DeleteProveedor(idProveedor);
-                if (resultado)
+
+                if (resultado.Success)
                 {
                     TempData["Mensaje"] = "Proveedor eliminado con éxito.";
                     TempData["TipoMensaje"] = "success";
@@ -53,14 +54,16 @@ namespace Contabsv_core.Pages.Proveedores
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Error al eliminar el proveedor.");
-                    return Page();
+                    TempData["Mensaje"] = resultado.Message;
+                    TempData["TipoMensaje"] = "danger"; 
+                    return RedirectToPage(); 
                 }
             }
             catch (Exception ex)
             {
-                ModelState.AddModelError(string.Empty, $"Ocurrió un error: {ex.Message}");
-                return Page();
+                TempData["Mensaje"] = $"Ocurrió un error inesperado: {ex.Message}";
+                TempData["TipoMensaje"] = "danger";
+                return RedirectToPage();
             }
         }
     }

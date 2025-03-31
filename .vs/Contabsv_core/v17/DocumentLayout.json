@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\",
+  "WorkspaceRootPath": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F7D49CF-5DA4-4E19-8AD4-0D9CCDF5293A}|Contabsv_core.csproj|c:\\users\\programador04\\documents\\github\\contabsv_core\\models\\ventascontribuyentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F7D49CF-5DA4-4E19-8AD4-0D9CCDF5293A}|Contabsv_core.csproj|solutionrelative:models\\ventascontribuyentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F7D49CF-5DA4-4E19-8AD4-0D9CCDF5293A}|Contabsv_core.csproj|c:\\users\\programador04\\documents\\github\\contabsv\\pages\\tablasauxiliares\\resoluciones\\editar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7D49CF-5DA4-4E19-8AD4-0D9CCDF5293A}|Contabsv_core.csproj|solutionrelative:pages\\tablasauxiliares\\resoluciones\\editar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F7D49CF-5DA4-4E19-8AD4-0D9CCDF5293A}|Contabsv_core.csproj|c:\\users\\programador04\\documents\\github\\contabsv_core\\pages\\ventas\\contribuyentes\\registrar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F7D49CF-5DA4-4E19-8AD4-0D9CCDF5293A}|Contabsv_core.csproj|solutionrelative:pages\\ventas\\contribuyentes\\registrar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F7D49CF-5DA4-4E19-8AD4-0D9CCDF5293A}|Contabsv_core.csproj|c:\\users\\programador04\\documents\\github\\contabsv_core\\pages\\ventas\\final\\registrar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F7D49CF-5DA4-4E19-8AD4-0D9CCDF5293A}|Contabsv_core.csproj|solutionrelative:pages\\ventas\\final\\registrar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F7D49CF-5DA4-4E19-8AD4-0D9CCDF5293A}|Contabsv_core.csproj|c:\\users\\programador04\\documents\\github\\contabsv\\pages\\tablasauxiliares\\resoluciones\\registrar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7D49CF-5DA4-4E19-8AD4-0D9CCDF5293A}|Contabsv_core.csproj|solutionrelative:pages\\tablasauxiliares\\resoluciones\\registrar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,8 +17,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1274,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 1498,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,45 +42,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Registrar.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\Pages\\Ventas\\Final\\Registrar.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Ventas\\Final\\Registrar.cshtml.cs",
-              "ToolTip": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\Pages\\Ventas\\Final\\Registrar.cshtml.cs",
-              "RelativeToolTip": "Pages\\Ventas\\Final\\Registrar.cshtml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T13:49:05.362Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Registrar.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\Pages\\Ventas\\Contribuyentes\\Registrar.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Ventas\\Contribuyentes\\Registrar.cshtml.cs",
-              "ToolTip": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\Pages\\Ventas\\Contribuyentes\\Registrar.cshtml.cs",
-              "RelativeToolTip": "Pages\\Ventas\\Contribuyentes\\Registrar.cshtml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAgwCgAAAAwAAAA",
+              "DocumentMoniker": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv\\Pages\\TablasAuxiliares\\Resoluciones\\Registrar.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\TablasAuxiliares\\Resoluciones\\Registrar.cshtml.cs",
+              "ToolTip": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv\\Pages\\TablasAuxiliares\\Resoluciones\\Registrar.cshtml.cs",
+              "RelativeToolTip": "Pages\\TablasAuxiliares\\Resoluciones\\Registrar.cshtml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwC8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T03:41:35.437Z"
+              "WhenOpened": "2025-03-31T00:12:40.401Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VentasContribuyentes.cs",
-              "DocumentMoniker": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\Models\\VentasContribuyentes.cs",
-              "RelativeDocumentMoniker": "Models\\VentasContribuyentes.cs",
-              "ToolTip": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv_core\\Models\\VentasContribuyentes.cs",
-              "RelativeToolTip": "Models\\VentasContribuyentes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Title": "Editar.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv\\Pages\\TablasAuxiliares\\Resoluciones\\Editar.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\TablasAuxiliares\\Resoluciones\\Editar.cshtml.cs",
+              "ToolTip": "C:\\Users\\programador04\\Documents\\GitHub\\Contabsv\\Pages\\TablasAuxiliares\\Resoluciones\\Editar.cshtml.cs",
+              "RelativeToolTip": "Pages\\TablasAuxiliares\\Resoluciones\\Editar.cshtml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T03:26:24.187Z",
+              "WhenOpened": "2025-03-30T05:59:34.99Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 1337,
+          "DockedWidth": 1193,
           "SelectedChildIndex": -1,
           "Children": [
             {

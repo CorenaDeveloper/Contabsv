@@ -1,0 +1,264 @@
+﻿@page
+@using System.Security.Claims
+@model Contabsv_core.Pages.TablasAuxiliares.Resoluciones.ListaModel
+@using Microsoft.AspNetCore.Antiforgery
+@inject IAntiforgery Antiforgery
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var idCliente = User.FindFirst("IdCliente")?.Value ?? "0";
+    var tokens = Antiforgery.GetAndStoreTokens(HttpContextAccessor.HttpContext);
+}
+<div class="row">
+    <!-- [ Row 1 ] start -->
+    <div class="col-md-12 ">
+        <div class="card statistics-card-1">
+            <div class="card-body">
+                <img src="~/images/widget/img-status-2.svg" alt="img" class="img-fluid img-bg" />
+                <div class="d-flex align-items-center">
+                    <div class="avtar bg-brand-color-1 text-white me-3">
+                        <i class="fas fa-dice-d6 f-26"></i>
+                    </div>
+                    <div>
+                        <p class="text-muted mb-0">Datos</p>
+                        <div class="d-flex align-items-end">
+                            <h2 class="mb-0 f-w-500">Resoluciones</h2>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-end">
+                        <div class="button-container">
+                            <button class="animated-button save-btn" type="button" onclick="window.location.href='@Url.Page("/TablasAuxiliares/Resoluciones/Registrar")'">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                                    <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                                </svg>
+                                <span class="text">N U E V O</span>
+                                <span class="circle"></span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                                    <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <div id="spinner" class="text-center">
+            <div class="spinner-grow" style="width: 3rem; height: 3rem" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+        <table id="tblResolucion" class="display" style="width:100%; display: none;">
+            <thead>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div id="eliminarModal" class="modal fade" tabindex="-1" aria-labelledby="eliminarModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <form id="eliminarCompraForm" method="post" asp-page-handler="Delete">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="eliminarModal">Confirmar Eliminación</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>¿Estás seguro de que deseas eliminar este Resolución?</p>
+                    <input type="hidden" name="idResolucion" id="idResolucionInput" />
+                </div>
+                <div class="mt-3 text-end">
+                    <div class="button-container">
+                        <button class="animated-button cancel-btn" type="button" data-bs-dismiss="modal">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                                <path d="M7.8284 13H20V11H7.8284L13.1924 5.63589L11.7782 4.22168L4 12L11.7782 19.778L13.1924 18.3638L7.8284 13Z"></path>
+                            </svg>
+                            <span class="text">C A N C E L A R</span>
+                            <span class="circle"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                                <path d="M7.8284 13H20V11H7.8284L13.1924 5.63589L11.7782 4.22168L4 12L11.7782 19.778L13.1924 18.3638L7.8284 13Z"></path>
+                            </svg>
+                        </button>
+
+                        <button class="animated-button save-btn" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                                <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                            </svg>
+                            <span class="text">E L I M I N A R</span>
+                            <span class="circle"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                                <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    let table;
+
+    $(document).ready(function () {
+        if ($.fn.dataTable.isDataTable('#tblResolucion')) {
+            $('#tblResolucion').DataTable().destroy();
+        }
+
+        table = new DataTable('#tblResolucion', {
+            responsive: true,
+            processing: true,
+            serverSide: false,
+            ajax: {
+                url: "/TablasAuxiliares/Resoluciones/Lista?handler=Resoluciones",
+                type: "GET",
+                dataType: "json",
+                dataSrc: function (json) {
+                    return json || [];
+                },
+                error: function (xhr, status, error) {
+                    showAlert("danger", "Error al cargar clientes: " + error);
+                }
+            },
+            columns: [              
+                {
+                    data: "nombreCorto",
+                    title: "Aplica A",
+                    render: (data) => data || ''
+                },
+                {
+                    data: "numeroResolucion",
+                    title: "Resolucion",
+                    render: (data) => data || ''
+                },
+                {
+                    data: "numeroSerie",
+                    title: "Serie",
+                    render: (data) => data || ''
+                },                {
+                    data: "activo",
+                    title: "Estado",
+                    render: (data) => data || ''
+                },
+                {
+                    data: null,
+                    title: "OPT",
+                    orderable: false,
+                    searchable: false,
+                    render: function (data, type, row) {
+                        let menuId = `menu-${row.id}`;
+
+                        let btn = `
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle btn-sm" type="button"
+                                id="${menuId}"
+                                data-bs-toggle="dropdown"
+                                data-menu-id="${menuId}"
+                                aria-expanded="false">
+                                <i class="fas fa-sliders-h"></i>
+                            </button>
+                            <ul class="dropdown-menu shadow p-2 rounded-3" aria-labelledby="${menuId}">
+                                <li>
+                                     <button class="dropdown-item" type="button" onclick="Editar(${row.id});">
+                                        <i class="fas fa-pencil-alt me-2 text-primary"></i> Editar
+                                    </button>
+                                </li>
+                                <li>
+                                     <button class="dropdown-item" type="button" onclick="Eliminar(${row.id});">
+                                        <i class="fas fa-trash-alt me-2 text-danger"></i> Eliminar
+                                    </button>
+                                </li>
+                                 <li>
+                                     <button class="dropdown-item" type="button" onclick="Ver(${row.id});">
+                                        <i class="fas fa-search me-2 text-success"></i> Ver Datos
+                                     </button>
+                                 </li>
+                            </ul>
+                        </div>
+                    `;
+                        return btn;
+                    }
+                }
+            ],
+            "initComplete": function (settings, json) {
+                $("#spinner").hide();
+                $("#tblResolucion").show();
+
+            },
+            language: {
+                search: "Buscar:",
+                lengthMenu: "Mostrar _MENU_ registros por página",
+                info: "Mostrando _START_ a _END_ de _TOTAL_ registros",
+                infoEmpty: "No hay registros disponibles",
+                infoFiltered: "(filtrado de _MAX_ registros totales)",
+                loadingRecords: "Cargando...",
+                zeroRecords: "No se encontraron resultados",
+                emptyTable: "No hay datos disponibles en la tabla",
+                paginate: {
+                    first: "<span class='fas fa-angle-double-left'></span>",
+                    last: "<span class='fas fa-angle-double-right'></span>",
+                    next: "<span class='fas fa-chevron-right'></span>",
+                    previous: "<span class='fas fa-chevron-left'></span>"
+                }
+            }
+        });
+
+    });
+
+
+    function Editar(id) {
+        window.location.href = `/TablasAuxiliares/Resoluciones/Editar?id=${id}`;
+    }
+
+    function Eliminar(id) {
+        $('#idResolucionInput').val(id);
+        $('#eliminarModal').modal('show');
+    }
+
+    function Ver(idClienteClt) {
+        const data = table.rows().data().toArray();
+        const cliente = data.find(p => p.idClienteClt === idClienteClt);
+
+        if (!cliente) {
+            console.warn('Resolucion No encontrada');
+            return;
+        }
+        console.log(cliente);
+        // Llenar datos del proveedor en el offcanvas
+        const nombre = cliente.personaJuridica ? cliente.nombreRazonSocial : `${cliente.nombres ?? ''} ${cliente.apellidos ?? ''}`.trim();
+
+        $("#client-nombre").html(nombre || 'Sin Nombre');
+        $("#client-email").html(cliente.email || 'Sin Correo');
+        $("#client-nrc").html(cliente.nrc || '-');
+        $("#client-nit").html(cliente.nitCliente || '-');
+        $("#client-celular").html(cliente.celular || '-');
+        $("#client-sector").html(cliente.descripcionSector); //PENDIENTE DE AGREGAR A LA API
+        $("#client-contribuyente").html(cliente.tipoContribuyente);
+        $("#client-descripcion").html(cliente.nombreComercial);
+
+
+        // Checkbox jurídica, mostramos "Sí" o "No"
+        const juridicaBadge = document.getElementById('client-juridica');
+        if (cliente.personaJuridica) {
+            juridicaBadge.textContent = 'Sí';
+            juridicaBadge.classList.remove('bg-warning');
+            juridicaBadge.classList.add('bg-success');
+        } else {
+            juridicaBadge.textContent = 'No';
+            juridicaBadge.classList.remove('bg-success');
+            juridicaBadge.classList.add('bg-warning');
+        }
+
+        // Abres el offcanvas con Bootstrap 5
+        const offcanvas = new bootstrap.Offcanvas(document.getElementById('productOffcanvas'));
+        offcanvas.show();
+    }
+
+    // Llamas a la función solo para #Apps
+    floatingDropdownForTable('#tblResolucion');
+</script>

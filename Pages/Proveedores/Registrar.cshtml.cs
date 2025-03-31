@@ -38,21 +38,24 @@ namespace Contabsv_core.Pages.Proveedores
 
         public async Task<IActionResult> OnPostNewAsync()
         {
-
             var idCliente = int.Parse(User.FindFirst("IdCliente")?.Value ?? "0");
             NewProd.idCliente = idCliente;
 
-            ///Console.WriteLine(JsonSerializer.Serialize(NewProd, new JsonSerializerOptions { WriteIndented = true }));
+            var resultado = await _apiService.RegistrarProveedor(NewProd);
 
-            bool success = await _apiService.RegistrarProveedor(NewProd);
-            if (success)
+            if (resultado.Success)
             {
-                TempData["Mensaje"] = "Proveedor registrada con éxito.";
+                TempData["Mensaje"] = resultado.Message;  // "Proveedor registrado con éxito."
                 TempData["TipoMensaje"] = "success";
                 return RedirectToPage();
             }
+
+            // Si falla, cargamos los datos y mostramos el mensaje de error
             await CargarViewDataAsync();
-            ModelState.AddModelError("", "Error al registrar el proveedor.");
+            ModelState.AddModelError(string.Empty, resultado.Message);
+            TempData["Mensaje"] = resultado.Message;
+            TempData["TipoMensaje"] = "danger";  // o "error", según tu lógica de estilos
+
             return Page();
         }
     }

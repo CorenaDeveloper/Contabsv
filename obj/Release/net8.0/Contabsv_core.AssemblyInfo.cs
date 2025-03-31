@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Contabsv_core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3a4c6b526834fa28e783e72a2291c56d653c2fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Contabsv_core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Contabsv_core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

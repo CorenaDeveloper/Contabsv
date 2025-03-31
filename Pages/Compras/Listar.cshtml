@@ -3,10 +3,42 @@
 @using System.Security.Claims
 @{
 }
-<div class="card">
-    <div class="card-header" style="padding: 6px 10px;">
-        <h5>Compras</h5>
+<div class="row">
+    <!-- [ Row 1 ] start -->
+    <div class="col-md-12 ">
+        <div class="card statistics-card-1">
+            <div class="card-body">
+                <img src="~/images/widget/img-status-2.svg" alt="img" class="img-fluid img-bg" />
+                <div class="d-flex align-items-center">
+                    <div class="avtar bg-brand-color-1 text-white me-3">
+                        <i class="fas fa-dice-d6 f-26"></i>
+                    </div>
+                    <div>
+                        <p class="text-muted mb-0">Datos</p>
+                        <div class="d-flex align-items-end">
+                            <h2 class="mb-0 f-w-500">Compras</h2>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-end">
+                        <div class="button-container">
+                            <button class="animated-button save-btn" type="button" onclick="window.location.href='@Url.Page("/Compras/RegistrarCprInterna")'">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                                    <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                                </svg>
+                                <span class="text">N U E V O</span>
+                                <span class="circle"></span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                                    <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+<div class="card">
     <div class="card-body">
         <div class="row g-3">
             <div class="col-lg-3">
@@ -55,9 +87,30 @@
                     <p>¿Estás seguro de que deseas eliminar este Compra?</p>
                     <input type="hidden" name="idCompra" id="idCompraInput" />
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                <div class="mt-3 text-end">
+                    <div class="button-container">
+                        <button class="animated-button cancel-btn" type="button" data-bs-dismiss="modal">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                                <path d="M7.8284 13H20V11H7.8284L13.1924 5.63589L11.7782 4.22168L4 12L11.7782 19.778L13.1924 18.3638L7.8284 13Z"></path>
+                            </svg>
+                            <span class="text">C A N C E L A R</span>
+                            <span class="circle"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                                <path d="M7.8284 13H20V11H7.8284L13.1924 5.63589L11.7782 4.22168L4 12L11.7782 19.778L13.1924 18.3638L7.8284 13Z"></path>
+                            </svg>
+                        </button>
+
+                        <button class="animated-button save-btn" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                                <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                            </svg>
+                            <span class="text">E L I M I N A R</span>
+                            <span class="circle"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                                <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </form>
         </div>
@@ -109,7 +162,6 @@
             },
             columns: [
                 { data: "fechaEmision", title: "Emisión" },
-                { data: "fechaPresentacion", title: "Presentacion", className: "text-start" },
                 { data: "codigoClaseDocumento", title: "CODIGO", visible: false },
                 { data: "numeroDocumento", title: "Num Documento", className: "text-start" },
                 {
@@ -122,35 +174,53 @@
                             : `${row.nombreProveedor} ${row.apellidopProveedor}`;
                     }
                 },
-                { data: "internasExentas", title: "Int Exentas", className: "text-center" },
-                { data: "internacionalesExentasYONsujetas", title: "Intern Exentas y/o no sujetas", className: "text-center" },
-                { data: "importacionesYONsujetas", title: "Import Exentas y/o no sujetas", className: "text-center" },
-                { data: "internasGravadas", title: "Gravadas", className: "text-center" },
-                { data: "internacionesGravadasBienes", title: "Internaciones gravadas de bienes", className: "text-center" },
-                { data: "importacionesGravadasBienes", title: "Import gravadas de bienes", className: "text-center" },
-                { data: "importacionesGravadasServicios", title: "Import gravadas de servicios", className: "text-center" },
-                { data: "creditoFiscal", title: "Crédito fiscal", className: "text-center" },
-                { data: "totalCompras", title: "Total compra", className: "text-center" },
-                { data: "descripcionClaseDocumento", title: "Clase Doc" },
-                { data: "descripcionTipOperacion", title: "Tipo Operación" },
-                { data: "descripcionClasificacion", title: "Clasificación" },
-                { data: "descripcionSector", title: "Sector" },
-                { data: "descripcionCostoGasto", title: "Tipo Costo / Gasto" },
-                {
-                    data: null,
-                    title: "OPT",
-                    orderable: false,
-                    searchable: false,
+                { 
+                    data: "totalCompras", 
+                    title: "Total compra", 
+                    className: "text-center",
                     render: function (data, type, row) {
-                        return `
-                            <button class="btn btn-sm btn-primary edit-btn" data-id="${row.idDocCompra}">
-                                <i class="fas fa-edit"></i> 
-                            </button>
-                            <button class="btn btn-sm btn-danger delete-btn" data-id="${row.idDocCompra}">
-                                <i class="fas fa-trash"></i> 
-                            </button>`;
+                        return data ? data : 0;
                     }
-                }
+                },
+                    {
+                        data: null,
+                        title: "OPT",
+                        orderable: false,
+                        searchable: false,
+                        render: function (data, type, row) {
+                            let menuId = `menu-${row.idDocCompra}`;
+
+                            let btn = `
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle btn-sm" type="button"
+                                id="${menuId}"
+                                data-bs-toggle="dropdown"
+                                data-menu-id="${menuId}"
+                                aria-expanded="false">
+                                <i class="fas fa-sliders-h"></i>
+                            </button>
+                            <ul class="dropdown-menu shadow p-2 rounded-3" aria-labelledby="${menuId}">
+                                <li>
+                                        <button class="dropdown-item" type="button" onclick="Editar(${row.idDocCompra});">
+                                        <i class="fas fa-pencil-alt me-2 text-primary"></i> Editar
+                                    </button>
+                                </li>
+                                <li>
+                                        <button class="dropdown-item" type="button" onclick="Eliminar(${row.idDocCompra});">
+                                        <i class="fas fa-trash-alt me-2 text-danger"></i> Eliminar
+                                    </button>
+                                </li>
+                                 <li>
+                                          <button class="dropdown-item" type="button" onclick="Ver(${row.idDocCompra});">
+                                         <i class="fas fa-search me-2 text-success"></i> Ver Datos
+                                      </button>
+                                 </li>
+                            </ul>
+                        </div>
+                    `;
+                            return btn;
+                        }
+                    }
             ],
             "initComplete": function () {
                 $("#spinner").hide();
@@ -170,17 +240,17 @@
                 }
             }
         });
-
-        $('#tblCompras tbody').on('click', '.edit-btn', function () {
-            let id = $(this).data('id');
-            window.location.href = `Editar?id=${id}`;
-        });
-
-        $('#tblCompras tbody').on('click', '.delete-btn', function () {
-            let id = $(this).data('id');
-            $('#idCompraInput').val(id);
-            $('#eliminarCompraModal').modal('show');
-        });
     }
 
+    function Editar(id) {
+        window.location.href = `/Compras/Editar/?id=${id}`;
+    }
+
+    function Eliminar(id) {
+        $('#idCompraInput').val(id);
+        $('#eliminarCompraModal').modal('show');
+    }
+
+    // Llamas a la función solo para #Apps
+    floatingDropdownForTable('#tblCompras');
 </script>
